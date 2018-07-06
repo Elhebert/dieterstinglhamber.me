@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fc66df17c107f18a08b38b9348fa4af8",
+    "content-hash": "756daeda2e78d2140e6314ea0cf97ae2",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2103,6 +2103,46 @@
                 "xunit"
             ],
             "time": "2018-04-11T04:50:36+00:00"
+        },
+        {
+            "name": "piwik/piwik-php-tracker",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/piwik/piwik-php-tracker.git",
+                "reference": "f9a0168c87f01f2d5de95029a1ba0d1fd6c3d5ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/piwik/piwik-php-tracker/zipball/f9a0168c87f01f2d5de95029a1ba0d1fd6c3d5ab",
+                "reference": "f9a0168c87f01f2d5de95029a1ba0d1fd6c3d5ab",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "."
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "The Piwik Team",
+                    "email": "hello@piwik.org",
+                    "homepage": "http://piwik.org/the-piwik-team/"
+                }
+            ],
+            "description": "PHP Client for Piwik Analytics Tracking API",
+            "homepage": "http://piwik.org",
+            "keywords": [
+                "analytics",
+                "piwik",
+                "tracker"
+            ],
+            "time": "2017-11-09T03:20:23+00:00"
         },
         {
             "name": "psr/container",

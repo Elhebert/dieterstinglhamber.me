@@ -11,6 +11,8 @@ class HomeController
 {
     public function index(Sheets $sheets): View
     {
+        \Analytics::pageView('home');
+
         $posts = $sheets->all()->sortByDesc('date');
 
         $paginatedPosts = new LengthAwarePaginator(
