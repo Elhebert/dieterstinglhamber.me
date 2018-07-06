@@ -8,6 +8,8 @@ class AboutController
 {
     public function index(): View
     {
+        \Analytics::pageView('about');
+
         return view('about');
     }
 }
