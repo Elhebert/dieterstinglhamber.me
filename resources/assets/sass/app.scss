@@ -48,6 +48,10 @@ p code {
   @apply .text-base .leading-normal .font-mono .px-1 .bg-blue-light .border .border-blue-light .rounded-sm;
 }
 
+.turbolinks-progress-bar {
+  @apply .bg-blue .h-1;
+}
+
 /**
  * This injects all of Tailwind's utility classes, generated based on your
  * config file.
@@ -73,7 +77,7 @@ p code {
  * @import "utilities/skew-transforms";
  */
 
- * {
+* {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

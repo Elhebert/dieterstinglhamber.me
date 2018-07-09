@@ -1,24 +1,24 @@
 @extends('layouts.master')
 
 @section('meta')
-    <title>Dieter Stinglhamber</title>
-    <meta name="description" content="I'm a {{ $age }} years old nerd, passionate by web development, RPG's, fantasy books, Belgian beers and computers.">
+    <title>{{ config('about.name') }}</title>
+    <meta name="description" content="{{ config('about.short_description', ['age' => $age]) }}">
 
     <meta property="og:url" content="https://dieterstinglhamber.me/">
 
-    <meta property="og:title" content="Dieter Stinglhamber">
+    <meta property="og:title" content="{{ config('about.name') }}">
     <meta property="og:image" content="{{ asset('media/me.jpg') }}">
-    <meta property="og:description" content="I'm a {{ $age }} years old nerd, passionate by web development, RPG's, fantasy books, Belgian beers and computers.">
-    <meta property="og:site_name" content="Dieter Stinglhamber">
+    <meta property="og:description" content="{{ config('about.short_description', ['age' => $age]) }}">
+    <meta property="og:site_name" content="{{ config('about.name') }}">
     <meta property="og:locale" content="en_US">
-    <meta property="article:author" content="Dieter Stinglhamber">
+    <meta property="article:author" content="{{ config('about.name') }}">
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@elhebert">
     <meta name="twitter:creator" content="@elhebert">
     <meta name="twitter:url" content="https://dieterstinglhamber.me/">
-    <meta name="twitter:title" content="Dieter Stinglhamber">
-    <meta name="twitter:description" content="I'm a {{ $age }} years old nerd, passionate by web development, RPG's, fantasy books, Belgian beers and computers.">
+    <meta name="twitter:title" content="{{ config('about.name') }}">
+    <meta name="twitter:description" content="{{ config('about.short_description', ['age' => $age]) }}">
     <meta name="twitter:image" content="{{ asset('media/me.jpg') }}">
 @endsection
 

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('meta')
-    <title>{{ $post->title }} - Dieter Stinglhamber</title>
+    <title>{{ $post->title }} - {{ config('about.name') }}</title>
     <meta name="description" content="{{ $post->summary }}">
 
     <meta property="og:url" content="{{ route('post', [$post->slug]) }}">
@@ -9,9 +9,9 @@
     <meta property="og:title" content="{{ $post->title }}">
     <meta property="og:image" content="{{ asset('media/me.jpg') }}">
     <meta property="og:description" content="{{ $post->summary }}">
-    <meta property="og:site_name" content="Dieter Stinglhamber">
+    <meta property="og:site_name" content="{{ config('about.name') }}">
     <meta property="og:locale" content="en_US">
-    <meta property="article:author" content="Dieter Stinglhamber">
+    <meta property="article:author" content="{{ config('about.name') }}">
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@elhebert">
@@ -30,7 +30,7 @@
             @include('_partials.sidebar')
         </div>
 
-        <main class="xl:relative | w-full xl:w-3/4 xl:px-24 py-12 h-full | xl:overflow-auto | bg-white">
+        <main class="xl:relative | w-full xl:w-3/4 xl:px-24 py-12 h-full | xl:overflow-auto | bg-white | article">
             <div class="my-6 mx-24 | text-blue text-2xl">
                 <span class="text-blue-dark text-lg font-semibold | block">
                     Written on <time>{{ $post->date->format('M d, Y') }}</time>

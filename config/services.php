@@ -13,11 +13,4 @@ return [
     | to have a conventional place to find your various credentials.
     |
     */
-
-    'matomo' => [
-        'api_key' => env('MATOMO_API_KEY'),
-        'site_id' => env('MATOMO_SITE_ID'),
-        'url' => env('MATOMO_URL'),
-    ],
-
 ];

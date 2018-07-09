@@ -7,17 +7,19 @@
         "watch-poll": "npm run watch -- --watch-poll",
         "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
         "prod": "npm run production",
-        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "lint": "./node_modules/.bin/prettier --list-different --write 'resources/assets/js/**'"
     },
     "devDependencies": {
-        "browser-sync": "^2.24.4",
+        "browser-sync": "^2.24.5",
         "browser-sync-webpack-plugin": "2.0.1",
-        "cross-env": "^5.1",
-        "laravel-mix": "^2.0"
+        "cross-env": "^5.2.0",
+        "laravel-mix": "^2.0",
+        "laravel-mix-purgecss": "^2.0.0",
+        "prettier": "^1.13.7"
     },
     "dependencies": {
         "highlight.js": "^9.12.0",
-        "laravel-mix-purgecss": "^2.0.0",
         "tailwindcss": "^0.5.2",
         "turbolinks": "^5.1.1"
     }

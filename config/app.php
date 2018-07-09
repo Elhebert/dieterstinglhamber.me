@@ -167,7 +167,7 @@ return [
         // Application Service Providers...
         App\Providers\AppServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        App\Providers\PiwikProvider::class,
+        App\Providers\AnalyticsProvider::class,
 
     ],
 
@@ -218,7 +218,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
-        'Analytics' => App\Facades\Piwik::class,
+        'Analytics' => App\Facades\Analytics::class,
 
     ],
 
