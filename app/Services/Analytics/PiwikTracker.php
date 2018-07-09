@@ -19,6 +19,8 @@ class PiwikTracker implements Tracker
 
     public function pageView(string $title)
     {
-        $this->piwik->doTrackPageView($title);
+        if (app()->env === 'production') {
+            $this->piwik->doTrackPageView($title);
+        }
     }
 }

@@ -1,0 +1,9 @@
+>= 1%
+
+# MICROSOFT: IE Desktop, IE Mobile, Edge
+Edge >= 14
+ie >= 11
+
+# APPLE: iOS Safari, Desktop Safari
+ios_saf >= 9
+Safari >= 9

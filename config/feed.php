@@ -1,9 +1,5 @@
 <?php
 
-use Illuminate\Support\Carbon;
-
-$age = Carbon::now()->diffInYears(Carbon::parse('1992-10-26'));
-
 return [
     'feeds' => [
         'main' => [
@@ -20,7 +16,7 @@ return [
             // The feed will be available on this url.
             'url' => '/feed',
 
-            'title' => "I am a {$age} years old nerd, passionate by web development, RPGs, fantasy books, Belgian beers and computers.",
+            'title' => config('about.short_description'),
         ],
     ],
 ];

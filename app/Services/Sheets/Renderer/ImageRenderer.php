@@ -4,7 +4,6 @@ namespace App\Services\Sheets\Renderer;
 
 use League\CommonMark\Util\Xml;
 use League\CommonMark\HtmlElement;
-use Spatie\MediaLibrary\Models\Media;
 use League\CommonMark\Inline\Element\Image;
 use League\CommonMark\ElementRendererInterface;
 use League\CommonMark\Inline\Element\AbstractInline;

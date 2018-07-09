@@ -13,7 +13,6 @@
         "piwik/piwik-php-tracker": "^1.4",
         "spatie/laravel-csp": "^1.2",
         "spatie/laravel-feed": "^2.0",
-        "spatie/laravel-missing-page-redirector": "^2.3",
         "spatie/sheets": "^0.2.1"
     },
     "require-dev": {
