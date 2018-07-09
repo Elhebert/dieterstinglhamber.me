@@ -10,15 +10,15 @@ class PiwikTracker implements Tracker
     public function __construct()
     {
         $this->piwik = new \PiwikTracker(
-            config('services.matomo.site_id'),
-            config('services.matomo.url')
+            config('analytics.credentials.site_id'),
+            config('analytics.credentials.url')
         );
 
         if (!config('analytics.use_cookies')) {
             $this->piwik->disableCookieSupport();
         }
 
-        $this->piwik->setTokenAuth(config('services.matomo.api_key'));
+        $this->piwik->setTokenAuth(config('analytics.credentials.api_key'));
     }
 
     public function pageView(string $title)
