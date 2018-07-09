@@ -30,6 +30,7 @@
         <link rel="stylesheet" href="{{ mix('css/hljs.css') }}">
 
         <script src="{{ mix('js/app.js') }}" defer></script>
+        {{ \Analytics::javascript() }}
     </head>
     <body class="font-serif">
         @yield('content')

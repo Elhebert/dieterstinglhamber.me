@@ -3,9 +3,8 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use App\Services\Analytics\PiwikTracker;
 
-class PiwikProvider extends ServiceProvider
+class AnalyticsProvider extends ServiceProvider
 {
     /**
      * Bootstrap services.
@@ -19,8 +18,8 @@ class PiwikProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('Analytics', function () {
-            return new PiwikTracker();
+        $this->app->bind('Analytics', function ($app) {
+            return new $app['config']['analytics']['class']();
         });
     }
 }
