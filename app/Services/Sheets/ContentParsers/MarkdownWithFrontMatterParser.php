@@ -11,11 +11,13 @@ use League\CommonMark\Inline\Element\Image;
 use Spatie\YamlFrontMatter\YamlFrontMatter;
 use League\CommonMark\Block\Element\Heading;
 use App\Services\Sheets\Renderer\LinkRenderer;
+use League\CommonMark\Block\Element\ListBlock;
 use League\CommonMark\Block\Element\Paragraph;
 use App\Services\Sheets\Renderer\ImageRenderer;
 use League\CommonMark\Block\Element\BlockQuote;
 use App\Services\Sheets\Renderer\HeadingRenderer;
 use League\CommonMark\Block\Element\ThematicBreak;
+use App\Services\Sheets\Renderer\ListBlockRenderer;
 use App\Services\Sheets\Renderer\ParagraphRenderer;
 use App\Services\Sheets\Renderer\BlockQuoteRenderer;
 use App\Services\Sheets\Renderer\ThematicBreakRenderer;
@@ -38,6 +40,7 @@ class MarkdownWithFrontMatterParser implements ContentParser
         $environment->addBlockRenderer(ThematicBreak::class, new ThematicBreakRenderer());
         $environment->addBlockRenderer(Heading::class, new HeadingRenderer());
         $environment->addBlockRenderer(BlockQuote::class, new BlockQuoteRenderer());
+        $environment->addBlockRenderer(ListBlock::class, new ListBlockRenderer());
 
         $this->parser = new DocParser($environment);
         $this->renderer = new HtmlRenderer($environment);
