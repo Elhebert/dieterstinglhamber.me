@@ -9,7 +9,7 @@
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
-    var u="//{{ config('analytics.credentials.url') }}";
+    var u="//{{ config('analytics.credentials.url') }}/";
     _paq.push(['setTrackerUrl', u+'piwik.php']);
     _paq.push(['setSiteId', "{{ config('analytics.credentials.site_id') }}"]);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
