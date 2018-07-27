@@ -16,7 +16,7 @@
 
         <script src="{{ mix('js/app.js') }}" defer></script>
 
-        {{ \Analytics::javascript() }}
+        {!! \Analytics::javascript() !!}
     </head>
     <body class="font-serif">
         @include('_partials.nav')
