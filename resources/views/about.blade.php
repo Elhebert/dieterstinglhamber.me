@@ -1,30 +1,9 @@
-@extends('layouts.master')
-
-@section('meta')
-    <title>About - {{ config('about.name') }}</title>
-    <meta name="description" content="{{ config('about.short_description', ['age' => $age]) }}">
-
-    <meta property="og:url" content="https://dieterstinglhamber.me/about">
-
-    <meta property="og:title" content="{{ config('about.name') }}">
-    <meta property="og:image" content="{{ asset('media/me.jpg') }}">
-    <meta property="og:description" content="{{ config('about.short_description', ['age' => $age]) }}">
-    <meta property="og:site_name" content="{{ config('about.name') }}">
-    <meta property="og:locale" content="en_US">
-    <meta property="article:author" content="{{ config('about.name') }}">
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@elhebert">
-    <meta name="twitter:creator" content="@elhebert">
-    <meta name="twitter:url" content="https://dieterstinglhamber.me/about">
-    <meta name="twitter:title" content="{{ config('about.name') }}">
-    <meta name="twitter:description" content="{{ config('about.short_description', ['age' => $age]) }}">
-    <meta name="twitter:image" content="{{ asset('media/me.jpg') }}">
-@endsection
+@extends('layouts.master', [
+    'title' => 'About - ' . config('about.name'),
+    'description' => config('about.short_description')
+])
 
 @section('content')
-    @include('_partials.nav')
-
     <div class="flex h-full w-full | bg-blue-light">
         <div class="max-w-xl mx-auto | px-8 xl:px-24 py-12 xl:py-12">
             @include('_partials.sidebar')
@@ -54,7 +33,7 @@
             </p>
 
             <p class="text-blue text-xl md:text-2xl | mb-8">
-                After a year I quit to join a small startup as a <strong>Web Developer</strong>. I worked on their SaaS solution, a task management tool. We build it using <strong>Laravel</strong> and <strong>VueJS</strong>. When my contract ended, I decided not to continue working their due to difference of opinion with the CEO.
+                After a year I quit to join a small startup as a <strong>Web Developer</strong>. I worked on their SaaS solution, a task management tool. We build it using <strong>Laravel</strong> and <strong>VueJS</strong>. When my contract ended, I decided not to continue working there due to difference of opinion with the CEO.
             </p>
 
             <p class="text-blue text-xl md:text-2xl | mb-8">
@@ -70,7 +49,7 @@
             </h3>
 
             <p class="text-blue text-xl md:text-2xl | mb-8">
-                In my personal time I like to read (mostly Heroic Fantasy books) and play video games. I also enjoy table tob RPGs (both as player and dungeon master).
+                In my personal time I like to read (mostly Heroic Fantasy books) and play video games. I also enjoy boardgames and table tob RPGs (both as player and dungeon master).
             </p>
 
             <p class="text-blue text-xl md:text-2xl | mb-24">

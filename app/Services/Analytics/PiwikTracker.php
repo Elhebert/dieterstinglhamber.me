@@ -23,14 +23,22 @@ class PiwikTracker implements Tracker
 
     public function pageView(string $title)
     {
-        if (config('analytics.enabled') && config('analytics.use_backend')) {
+        if (
+            config('analytics.enabled')
+            && config('analytics.use_backend')
+            && empty(request()->header('DNT'))
+        ) {
             $this->piwik->doTrackPageView($title);
         }
     }
 
     public function javascript(): string
     {
-        if (config('analytics.enabled') && config('analytics.javascript')) {
+        if (
+            config('analytics.enabled')
+            && config('analytics.javascript')
+            && empty(request()->header('DNT'))
+        ) {
             return view('_partials.analytics')->render();
         }
 

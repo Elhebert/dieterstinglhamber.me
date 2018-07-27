@@ -1,30 +1,10 @@
-@extends('layouts.master')
-
-@section('meta')
-    <title>{{ $post->title }} - {{ config('about.name') }}</title>
-    <meta name="description" content="{{ $post->summary }}">
-
-    <meta property="og:url" content="{{ route('post', [$post->slug]) }}">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="{{ $post->title }}">
-    <meta property="og:image" content="{{ asset('media/me.jpg') }}">
-    <meta property="og:description" content="{{ $post->summary }}">
-    <meta property="og:site_name" content="{{ config('about.name') }}">
-    <meta property="og:locale" content="en_US">
-    <meta property="article:author" content="{{ config('about.name') }}">
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@elhebert">
-    <meta name="twitter:creator" content="@elhebert">
-    <meta name="twitter:url" content="{{ route('post', [$post->slug]) }}">
-    <meta name="twitter:title" content="{{ $post->title }}">
-    <meta name="twitter:description" content="{{ $post->summary }}">
-    <meta name="twitter:image" content="{{ asset('media/me.jpg') }}">
-@endsection
+@extends('layouts.master', [
+    'title' => "{$post->title} - " . config('about.name'),
+    'ogTitle' => $post->title,
+    'description' => $post->summary
+])
 
 @section('content')
-    @include('_partials.nav')
-
     <div class="xl:flex xl:flex-row xl:h-screen w-full| bg-blue-light">
         <div class="w-full xl:w-1/4 px-12 py-12 | bg-blue-light">
             @include('_partials.sidebar')

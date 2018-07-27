@@ -75,7 +75,7 @@
         class="text-blue text-2xl xl:text-3xl | mb-8"
     @endif
 >
-    {{ config('about.short_description', ['age' => $age]) }}
+    {{ config('about.short_description') }}
 </p>
 
 <p

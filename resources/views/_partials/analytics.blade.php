@@ -3,7 +3,7 @@
     var _paq = _paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
   _paq.push(["setDoNotTrack", true]);
-  @if (config('analytics.use_cookies'))
+  @if (config('analytics.use_cookies') === false)
     _paq.push(["disableCookies"]);
   @endif
   _paq.push(['trackPageView']);

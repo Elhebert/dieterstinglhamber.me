@@ -11,7 +11,7 @@ return  [
         'url' => env('MATOMO_URL'),
     ],
 
-    'use_cookies' => false,
-    'use_javascript' => false,
-    'use_backend' => true,
+    'use_cookies' => env('ANALYTICS_COOKIES', false),
+    'use_javascript' => env('ANALYTICS_JS', false),
+    'use_backend' => env('ANALYTICS_BACK_END', true),
 ];
