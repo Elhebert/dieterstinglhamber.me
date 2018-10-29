@@ -11,10 +11,10 @@
         "lint": "./node_modules/.bin/prettier --list-different --write 'resources/assets/js/**'"
     },
     "devDependencies": {
-        "browser-sync": "^2.24.5",
+        "browser-sync": "^2.26.3",
         "browser-sync-webpack-plugin": "2.0.1",
         "cross-env": "^5.2.0",
-        "laravel-mix": "^2.0",
+        "laravel-mix": "^2.1.14",
         "laravel-mix-purgecss": "^2.0.0",
         "prettier": "^1.13.7"
     },
