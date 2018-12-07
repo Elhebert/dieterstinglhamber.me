@@ -6,7 +6,7 @@
         "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
         "dev": "npm run local",
         "watch": "npm run local -- --watch",
-        "lint": "./node_modules/.bin/prettier --write 'source/_assets/**/*'"
+        "lint": "./node_modules/.bin/prettier --write 'source/_assets/{css,js}/**/*'"
     },
     "devDependencies": {
         "browser-sync": "^2.23.6",

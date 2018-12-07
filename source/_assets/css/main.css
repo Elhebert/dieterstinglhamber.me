@@ -6,7 +6,11 @@
 @import 'tailwindcss/utilities';
 
 body {
-  background-image: linear-gradient(169.88deg, #2A2C5B -102.05%, #F74B84 1227.07%);
+  background-image: linear-gradient(
+    169.88deg,
+    #2a2c5b -102.05%,
+    #f74b84 1227.07%
+  );
   background-repeat: no-repeat;
   background-size: cover;
 }

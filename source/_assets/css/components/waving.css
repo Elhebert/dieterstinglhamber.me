@@ -1,6 +1,6 @@
 .waving:hover .hand {
   animation-name: waving;
-  animation-duration: .2s;
+  animation-duration: 0.2s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
@@ -8,6 +8,10 @@
 }
 
 @keyframes waving {
-  0% {transform: rotate(-7deg);}
-  100% {transform: rotate(7deg);}
+  0% {
+    transform: rotate(-7deg);
+  }
+  100% {
+    transform: rotate(7deg);
+  }
 }

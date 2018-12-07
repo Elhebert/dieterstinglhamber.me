@@ -23,4 +23,4 @@ mix
     ],
     processCssUrls: false,
   })
-  .version();
+  .version()
