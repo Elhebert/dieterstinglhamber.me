@@ -1,0 +1,24 @@
+{
+    "name": "elhebert/dieterstinnglhamber.me",
+    "description": "Personal website",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "tightenco/jigsaw": "^1.2"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.13"
+    },
+    "scripts": {
+        "cs-fix": [
+            "./vendor/bin/php-cs-fixer fix --allow-risky yes"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
