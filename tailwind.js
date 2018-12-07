@@ -140,6 +140,7 @@ module.exports = {
       'sans-serif',
     ],
     'serif': [
+      'arvo',
       'Constantia',
       'Lucida Bright',
       'Lucidabright',

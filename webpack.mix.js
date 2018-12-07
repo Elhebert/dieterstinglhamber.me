@@ -12,6 +12,8 @@ mix.webpackConfig({
 });
 
 mix
+  .copy('source/_assets/css/fonts.css', 'css')
+  .copyDirectory('source/_assets/fonts', 'fonts')
   .postCss('source/_assets/css/main.css', 'css')
   .options({
     postCss: [

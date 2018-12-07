@@ -2,8 +2,8 @@
 
 @section('body')
 <div class="max-w-lg">
-    <h2 class="text-6xl text-purple mb-16">
-        Hey there, 👋<br> I'm <span class="text-pink">Dieter</span>, developer, nerd.
+    <h2 class="waving | text-6xl text-purple mb-16 font-serif">
+        Hey there, <span class="inline-block | hand">👋</span><br> I'm <span class="text-pink">Dieter</span>, developer, nerd.
     </h2>
 
     <p class="text-white text-2xl leading-loose | my-8">
