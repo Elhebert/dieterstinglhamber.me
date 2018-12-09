@@ -4,10 +4,17 @@
     "license": "MIT",
     "type": "project",
     "require": {
+        "league/commonmark": "^0.18.0",
+        "spatie/commonmark-highlighter": "^1.0",
         "tightenco/jigsaw": "^1.2"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Parser\\": "parser"
+        }
     },
     "scripts": {
         "cs-fix": [

@@ -1,5 +1,4 @@
 <svg
-    height="29"
     viewBox="0 0 31 30"
     class="fill-current mx-1"
     xmlns="http://www.w3.org/2000/svg"

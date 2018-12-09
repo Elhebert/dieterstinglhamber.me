@@ -631,6 +631,10 @@ table {
   background-color: #f74b84;
 }
 
+.bg-twitter {
+  background-color: #6cadde;
+}
+
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
@@ -679,6 +683,10 @@ table {
   background-color: #f74b84;
 }
 
+.hover\:bg-twitter:hover {
+  background-color: #6cadde;
+}
+
 .focus\:bg-transparent:focus {
   background-color: transparent;
 }
@@ -725,6 +733,10 @@ table {
 
 .focus\:bg-pink:focus {
   background-color: #f74b84;
+}
+
+.focus\:bg-twitter:focus {
+  background-color: #6cadde;
 }
 
 .bg-bottom {
@@ -847,6 +859,10 @@ table {
   border-color: #f74b84;
 }
 
+.border-twitter {
+  border-color: #6cadde;
+}
+
 .hover\:border-transparent:hover {
   border-color: transparent;
 }
@@ -895,6 +911,10 @@ table {
   border-color: #f74b84;
 }
 
+.hover\:border-twitter:hover {
+  border-color: #6cadde;
+}
+
 .focus\:border-transparent:focus {
   border-color: transparent;
 }
@@ -941,6 +961,10 @@ table {
 
 .focus\:border-pink:focus {
   border-color: #f74b84;
+}
+
+.focus\:border-twitter:focus {
+  border-color: #6cadde;
 }
 
 .rounded-none {
@@ -3534,6 +3558,10 @@ table {
   color: #f74b84;
 }
 
+.text-twitter {
+  color: #6cadde;
+}
+
 .hover\:text-transparent:hover {
   color: transparent;
 }
@@ -3582,6 +3610,10 @@ table {
   color: #f74b84;
 }
 
+.hover\:text-twitter:hover {
+  color: #6cadde;
+}
+
 .focus\:text-transparent:focus {
   color: transparent;
 }
@@ -3628,6 +3660,10 @@ table {
 
 .focus\:text-pink:focus {
   color: #f74b84;
+}
+
+.focus\:text-twitter:focus {
+  color: #6cadde;
 }
 
 .text-xs {
@@ -4122,6 +4158,10 @@ body {
     background-color: #f74b84;
   }
 
+  .sm\:bg-twitter {
+    background-color: #6cadde;
+  }
+
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -4170,6 +4210,10 @@ body {
     background-color: #f74b84;
   }
 
+  .sm\:hover\:bg-twitter:hover {
+    background-color: #6cadde;
+  }
+
   .sm\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -4216,6 +4260,10 @@ body {
 
   .sm\:focus\:bg-pink:focus {
     background-color: #f74b84;
+  }
+
+  .sm\:focus\:bg-twitter:focus {
+    background-color: #6cadde;
   }
 
   .sm\:bg-bottom {
@@ -4330,6 +4378,10 @@ body {
     border-color: #f74b84;
   }
 
+  .sm\:border-twitter {
+    border-color: #6cadde;
+  }
+
   .sm\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -4378,6 +4430,10 @@ body {
     border-color: #f74b84;
   }
 
+  .sm\:hover\:border-twitter:hover {
+    border-color: #6cadde;
+  }
+
   .sm\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -4424,6 +4480,10 @@ body {
 
   .sm\:focus\:border-pink:focus {
     border-color: #f74b84;
+  }
+
+  .sm\:focus\:border-twitter:focus {
+    border-color: #6cadde;
   }
 
   .sm\:rounded-none {
@@ -7001,6 +7061,10 @@ body {
     color: #f74b84;
   }
 
+  .sm\:text-twitter {
+    color: #6cadde;
+  }
+
   .sm\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -7049,6 +7113,10 @@ body {
     color: #f74b84;
   }
 
+  .sm\:hover\:text-twitter:hover {
+    color: #6cadde;
+  }
+
   .sm\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -7095,6 +7163,10 @@ body {
 
   .sm\:focus\:text-pink:focus {
     color: #f74b84;
+  }
+
+  .sm\:focus\:text-twitter:focus {
+    color: #6cadde;
   }
 
   .sm\:text-xs {
@@ -7584,6 +7656,10 @@ body {
     background-color: #f74b84;
   }
 
+  .md\:bg-twitter {
+    background-color: #6cadde;
+  }
+
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -7632,6 +7708,10 @@ body {
     background-color: #f74b84;
   }
 
+  .md\:hover\:bg-twitter:hover {
+    background-color: #6cadde;
+  }
+
   .md\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -7678,6 +7758,10 @@ body {
 
   .md\:focus\:bg-pink:focus {
     background-color: #f74b84;
+  }
+
+  .md\:focus\:bg-twitter:focus {
+    background-color: #6cadde;
   }
 
   .md\:bg-bottom {
@@ -7792,6 +7876,10 @@ body {
     border-color: #f74b84;
   }
 
+  .md\:border-twitter {
+    border-color: #6cadde;
+  }
+
   .md\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -7840,6 +7928,10 @@ body {
     border-color: #f74b84;
   }
 
+  .md\:hover\:border-twitter:hover {
+    border-color: #6cadde;
+  }
+
   .md\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -7886,6 +7978,10 @@ body {
 
   .md\:focus\:border-pink:focus {
     border-color: #f74b84;
+  }
+
+  .md\:focus\:border-twitter:focus {
+    border-color: #6cadde;
   }
 
   .md\:rounded-none {
@@ -10463,6 +10559,10 @@ body {
     color: #f74b84;
   }
 
+  .md\:text-twitter {
+    color: #6cadde;
+  }
+
   .md\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -10511,6 +10611,10 @@ body {
     color: #f74b84;
   }
 
+  .md\:hover\:text-twitter:hover {
+    color: #6cadde;
+  }
+
   .md\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -10557,6 +10661,10 @@ body {
 
   .md\:focus\:text-pink:focus {
     color: #f74b84;
+  }
+
+  .md\:focus\:text-twitter:focus {
+    color: #6cadde;
   }
 
   .md\:text-xs {
@@ -11046,6 +11154,10 @@ body {
     background-color: #f74b84;
   }
 
+  .lg\:bg-twitter {
+    background-color: #6cadde;
+  }
+
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -11094,6 +11206,10 @@ body {
     background-color: #f74b84;
   }
 
+  .lg\:hover\:bg-twitter:hover {
+    background-color: #6cadde;
+  }
+
   .lg\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -11140,6 +11256,10 @@ body {
 
   .lg\:focus\:bg-pink:focus {
     background-color: #f74b84;
+  }
+
+  .lg\:focus\:bg-twitter:focus {
+    background-color: #6cadde;
   }
 
   .lg\:bg-bottom {
@@ -11254,6 +11374,10 @@ body {
     border-color: #f74b84;
   }
 
+  .lg\:border-twitter {
+    border-color: #6cadde;
+  }
+
   .lg\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -11302,6 +11426,10 @@ body {
     border-color: #f74b84;
   }
 
+  .lg\:hover\:border-twitter:hover {
+    border-color: #6cadde;
+  }
+
   .lg\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -11348,6 +11476,10 @@ body {
 
   .lg\:focus\:border-pink:focus {
     border-color: #f74b84;
+  }
+
+  .lg\:focus\:border-twitter:focus {
+    border-color: #6cadde;
   }
 
   .lg\:rounded-none {
@@ -13925,6 +14057,10 @@ body {
     color: #f74b84;
   }
 
+  .lg\:text-twitter {
+    color: #6cadde;
+  }
+
   .lg\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -13973,6 +14109,10 @@ body {
     color: #f74b84;
   }
 
+  .lg\:hover\:text-twitter:hover {
+    color: #6cadde;
+  }
+
   .lg\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -14019,6 +14159,10 @@ body {
 
   .lg\:focus\:text-pink:focus {
     color: #f74b84;
+  }
+
+  .lg\:focus\:text-twitter:focus {
+    color: #6cadde;
   }
 
   .lg\:text-xs {
@@ -14508,6 +14652,10 @@ body {
     background-color: #f74b84;
   }
 
+  .xl\:bg-twitter {
+    background-color: #6cadde;
+  }
+
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -14556,6 +14704,10 @@ body {
     background-color: #f74b84;
   }
 
+  .xl\:hover\:bg-twitter:hover {
+    background-color: #6cadde;
+  }
+
   .xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -14602,6 +14754,10 @@ body {
 
   .xl\:focus\:bg-pink:focus {
     background-color: #f74b84;
+  }
+
+  .xl\:focus\:bg-twitter:focus {
+    background-color: #6cadde;
   }
 
   .xl\:bg-bottom {
@@ -14716,6 +14872,10 @@ body {
     border-color: #f74b84;
   }
 
+  .xl\:border-twitter {
+    border-color: #6cadde;
+  }
+
   .xl\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -14764,6 +14924,10 @@ body {
     border-color: #f74b84;
   }
 
+  .xl\:hover\:border-twitter:hover {
+    border-color: #6cadde;
+  }
+
   .xl\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -14810,6 +14974,10 @@ body {
 
   .xl\:focus\:border-pink:focus {
     border-color: #f74b84;
+  }
+
+  .xl\:focus\:border-twitter:focus {
+    border-color: #6cadde;
   }
 
   .xl\:rounded-none {
@@ -17387,6 +17555,10 @@ body {
     color: #f74b84;
   }
 
+  .xl\:text-twitter {
+    color: #6cadde;
+  }
+
   .xl\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -17435,6 +17607,10 @@ body {
     color: #f74b84;
   }
 
+  .xl\:hover\:text-twitter:hover {
+    color: #6cadde;
+  }
+
   .xl\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -17481,6 +17657,10 @@ body {
 
   .xl\:focus\:text-pink:focus {
     color: #f74b84;
+  }
+
+  .xl\:focus\:text-twitter:focus {
+    color: #6cadde;
   }
 
   .xl\:text-xs {
