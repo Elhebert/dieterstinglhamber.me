@@ -1,0 +1,22 @@
+pre {
+  @apply my-8;
+}
+
+pre code {
+  @apply text-base;
+  @apply leading-normal;
+  @apply font-mono;
+  @apply p-6;
+  @apply block;
+  @apply overflow-x-scroll;
+}
+
+p code {
+  @apply text-base;
+  @apply leading-normal;
+  @apply font-mono;
+  @apply p-1;
+  @apply rounded;
+  color: hsl(219, 28%, 88%);
+  background-color: hsl(220, 16%, 22%);
+}

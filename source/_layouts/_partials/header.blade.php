@@ -12,7 +12,7 @@
         <ul class="list-reset | font-semibold text-xl | flex">
             <li>
                 <a
-                    href=""
+                    href="{{ $page->baseUrl }}/about"
                     class="mr-6 {{ $page->active('about') }} hover:text-pink no-underline"
                 >
                     about
@@ -24,14 +24,6 @@
                     class="mx-6 {{ $page->active('blog') }} hover:text-pink no-underline"
                 >
                     blog
-                </a>
-            </li>
-            <li>
-                <a
-                    href=""
-                    class="ml-6 {{ $page->active('uses') }} hover:text-pink no-underline"
-                >
-                    uses
                 </a>
             </li>
         </ul>

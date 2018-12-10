@@ -560,6 +560,30 @@ table {
   }
 }
 
+pre {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+pre code {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  padding: 1.5rem;
+  display: block;
+  overflow-x: scroll;
+}
+
+p code {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  padding: .25rem;
+  border-radius: .25rem;
+  color: hsl(219, 28%, 88%);
+  background-color: hsl(220, 16%, 22%);
+}
+
 .list-reset {
   list-style: none;
   padding: 0;
