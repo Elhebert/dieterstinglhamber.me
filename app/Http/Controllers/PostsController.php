@@ -17,8 +17,6 @@ class PostsController
             abort(404);
         }
 
-        \Analytics::pageView($post->title);
-
         return view('post')
             ->with('post', $post);
     }
