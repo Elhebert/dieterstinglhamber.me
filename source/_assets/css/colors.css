@@ -1,0 +1,31 @@
+:root {
+    --text-default: #333333;
+    --text-invers: #333333;
+    --text-accent: #7178BC;
+
+    --bg-screen: #fafafa;
+
+    --text-default-dark: #7178bc;
+    --text-invers-dark: #fff;
+    --text-accent-dark: #f74b64;
+
+    --bg-screen-dark: #421e70;
+}
+
+.dark-mode {
+    --text-default: var(--text-default-dark);
+    --text-invers: var(--text-invers-dark);
+    --text-accent: var(--text-accent-dark);
+
+    --bg-screen: var(--bg-screen-dark);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-default: var(--text-default-dark);
+        --text-invers: var(--text-invers-dark);
+        --text-accent: var(--text-accent-dark);
+
+        --bg-screen: var(--bg-screen-dark);
+    }
+}

@@ -1,4 +1,7 @@
 @import 'tailwindcss/preflight';
+
+@import 'colors';
+
 @import 'tailwindcss/components';
 
 @import 'components/waving';
@@ -6,7 +9,7 @@
 
 @import 'tailwindcss/utilities';
 
-body {
+/* body {
   background-image: linear-gradient(
     169.88deg,
     #2a2c5b -102.05%,
@@ -14,4 +17,4 @@ body {
   );
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */

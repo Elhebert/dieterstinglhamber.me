@@ -2,7 +2,7 @@
     <h1 class="text-4xl">
         <a
             href="{{ $page->baseUrl }}/"
-            class="no-underline text-purple hover:text-pink"
+            class="no-underline text-default hover:text-accent"
         >
             D.
         </a>
@@ -13,7 +13,7 @@
             <li>
                 <a
                     href="{{ $page->baseUrl }}/about"
-                    class="mr-6 {{ $page->active('about') }} hover:text-pink no-underline"
+                    class="mr-6 {{ $page->active('about') }} hover:text-accent no-underline"
                 >
                     about
                 </a>
@@ -21,7 +21,7 @@
             <li>
                 <a
                     href="{{ $page->baseUrl }}/blog"
-                    class="mx-6 {{ $page->active('blog') }} hover:text-pink no-underline"
+                    class="mx-6 {{ $page->active('blog') }} hover:text-accent no-underline"
                 >
                     blog
                 </a>

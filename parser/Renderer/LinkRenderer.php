@@ -24,7 +24,7 @@ class LinkRenderer implements InlineRendererInterface, ConfigurationAwareInterfa
         }
 
         $attrs = [
-            'class' => 'text-pink no-underline hover:underline',
+            'class' => 'text-accent hover:no-underline',
         ];
 
         foreach ($inline->getData('attributes', []) as $key => $value) {

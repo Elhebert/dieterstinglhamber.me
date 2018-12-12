@@ -18,7 +18,7 @@ class ThematicBreakRenderer implements BlockRendererInterface
         }
 
         $attrs = [
-            'class' => 'bg-pink w-1/4 mx-auto my-16 h-px',
+            'class' => 'bg-accent w-1/4 mx-auto my-16 h-px',
         ];
 
         foreach ($block->getData('attributes', []) as $key => $value) {

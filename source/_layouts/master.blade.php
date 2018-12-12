@@ -12,7 +12,7 @@
 
         <link rel="me" href="https://dieterstinglhamber.me" type="text/html">
     </head>
-    <body class="font-sans min-h-screen | flex flex-col">
+    <body class="font-sans min-h-screen | flex flex-col | bg-screen text-default {{ $page->theme === 'dark' ? 'dark-mode' : '' }}">
         @include('_layouts._partials.header')
 
         @yield('body')

@@ -1,13 +1,13 @@
 @extends('_layouts.master')
 
 @section('body')
-<main class="flex-grow | container mx-auto | text-white leading-normal">
+<main class="flex-grow | container mx-auto | text-invers leading-normal">
     <div class="mx-4 max-w-lg lg:mx-auto">
-        <h2 class="text-5xl font-normal text-purple | mb-16 mt-16">
+        <h2 class="text-5xl font-normal text-default | mb-16 mt-16">
             About me 🧞‍♂️
         </h2>
 
-        <h3 class="text-3xl font-normal text-purple | mb-6">
+        <h3 class="text-3xl font-normal text-default | mb-6">
             Education
         </h3>
 
@@ -19,7 +19,7 @@
             The former was achieve in a Belgian university in 2015, where the later was the result of a year in <strong>Ireland (in Athlone)</strong> with the Erasmus program.
         </p>
 
-        <h3 class="text-3xl font-normal text-purple | mb-6">
+        <h3 class="text-3xl font-normal text-default | mb-6">
             Experience
         </h3>
 
@@ -43,7 +43,7 @@
             My responsabilities are mainly to deliver clean, optimized, tested and functionnal <strong>Laravel</strong> based products. As Code Owner I review all commits and ensure that the code we deliver is matching our standards.
         </p>
 
-        <h3 class="text-3xl font-normal text-purple | mb-6">
+        <h3 class="text-3xl font-normal text-default | mb-6">
             Outside of work
         </h3>
 
