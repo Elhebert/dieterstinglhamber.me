@@ -12,7 +12,7 @@
 
 .hljs {
   display: block;
-  overflow-x: auto;
+  overflow-x: scroll;
   padding: 0.5em;
   background: #2E3440;
 }

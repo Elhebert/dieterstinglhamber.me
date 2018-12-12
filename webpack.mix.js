@@ -1,5 +1,6 @@
 let mix = require('laravel-mix');
 let build = require('./tasks/build.js');
+require('laravel-mix-purgecss');
 
 mix.disableSuccessNotifications();
 mix.setPublicPath('source/assets/build');
@@ -23,4 +24,7 @@ mix
     processCssUrls: false,
   })
   .version()
+  .purgeCss({
+    folders: ['source'],
+  })
   .sourceMaps()

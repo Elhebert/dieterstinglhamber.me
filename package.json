@@ -21,5 +21,8 @@
         "tailwindcss": "^0.7.2",
         "webpack-watch": "^0.2.0",
         "yargs": "^4.6.0"
+    },
+    "dependencies": {
+        "laravel-mix-purgecss": "^3.0.0"
     }
 }
