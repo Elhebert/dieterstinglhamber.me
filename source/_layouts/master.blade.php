@@ -18,5 +18,17 @@
         @yield('body')
 
         @include('_layouts._partials.footer')
+
+        <script type="text/javascript">
+            const urlParams = new URLSearchParams(window.location.search)
+            const theme = urlParams.get('theme')
+
+            if (
+                theme === 'light'
+                && document.body.classList.contains('dark-mode')
+            ) {
+                document.body.classList.remove('dark-mode')
+            }
+        </script>
     </body>
 </html>
