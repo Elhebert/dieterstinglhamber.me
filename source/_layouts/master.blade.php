@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="{{ mix('css/fonts.css', 'assets/build') }}">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 
+        <meta name="description" content="26 years old nerd, passionate by web development, RPG's, fantasy books, Belgian beers and computers.">
+
         <title>Dieter Stinglhamber</title>
 
         <link rel="me" href="https://dieterstinglhamber.me" type="text/html">
