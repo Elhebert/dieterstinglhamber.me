@@ -1,0 +1,12 @@
+/we-are-all-stupid-thus-nobody-is                               /blog/we-are-all-stupid-thus-nobody-is
+/I-attempted-to-run-a-marathon                                  /blog/i-attempted-to-run-a-marathon
+/remove-the-xsrf-cookie-programmatically-in-laravel-57          /blog/remove-the-xsrf-cookie-programmatically-in-laravel-5.7
+/gdpr-consent-and-cookies-are-sitting-in-a-tree                 /blog/gdpr-consent-and-cookies-are-sitting-in-a-tree
+/taking-the-donottrack-header-into-account                      /blog/taking-the-donottrack-header-into-account
+/gdpr-compliant-tracking                                        /blog/gdpr-compliant-tracking
+/join-the-light-side-we-have-no-cookies                         /blog/join-the-light-side-we-have-no-cookies
+/the-good-the-bad-and-the-ugly-of-seeding-data-in-production    /blog/the-good-the-bad-and-the-ugly-of-seeding-data-in-production
+/a-year-at-altavia-act                                          /blog/a-year-at-altavia-act
+/what-is-this                                                   /blog/what-is-this
+/from-2017-to-2018                                              /blog/from-2017-to-2018
+/invest-in-you                                                  /blog/invest-in-you
