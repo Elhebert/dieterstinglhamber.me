@@ -1,15 +1,15 @@
-<header class="flex justify-between items-center | my-4 mx-4 lg:mx-24 | font-serif">
-    <h1 class="text-4xl">
+<header class="flex justify-between items-center | my-4 mx-4 lg:mx-24">
+    <h1 class="text-4xl font-bold">
         <a
             href="{{ $page->baseUrl }}/"
-            class="no-underline text-default hover:text-accent"
+            class="no-underline text-invers hover:text-accent"
         >
             D.
         </a>
     </h1>
 
     <nav>
-        <ul class="list-reset | font-semibold text-xl | flex">
+        <ul class="list-reset | font-bold text-xl | flex">
             <li>
                 <a
                     href="{{ $page->baseUrl }}/about"

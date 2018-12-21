@@ -3,8 +3,10 @@
 @section('body')
 <main class="flex-grow | pt-16 lg:flex lg:flex-col lg:justify-center | container mx-auto">
     <div class="mx-4 lg:mx-auto max-w-lg">
-        <h2 class="waving | text-5xl lg:text-6xl text-default mb-16 font-serif">
-            Hey there, <span class="inline-block | hand">👋</span><br> I'm <span class="text-accent">Dieter</span>, developer, nerd.
+        <h2 class="waving | text-5xl text-default mb-16 font-normal font-title">
+            Hey there, <span class="inline-block | hand">👋</span><br>
+            I'm Dieter,<br>
+            developer, human, nerd.
         </h2>
 
         <p class="text-invers text-2xl leading-normal lg:leading-loose | my-8">

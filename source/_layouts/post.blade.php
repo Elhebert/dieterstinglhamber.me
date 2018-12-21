@@ -4,16 +4,16 @@
 <main class="flex-grow | container mx-auto">
     <article class="mx-4 lg:mx-auto max-w-lg">
         <header class="mb-32">
-            <h2 class="text-5xl font-normal text-center text-default | mb-4 mt-16">
+            <h2 class="font-title text-5xl font-normal text-center text-default | mb-4 mt-16">
                 {{ $page->title }}
             </h2>
-            <div class="flex justify-around | text-default text-sm">
+            <div class="flex justify-around | text-invers text-lg">
                 <span>{{ date('d F Y', $page->date) }}</span>
-                <span class="text-accent">#{{ $page->tag }}</span>
+                <span>#{{ $page->tag }}</span>
                 <span class="hidden md:inline-block">
                     <a
                         href="{{ $page->github_repo_post }}/{{ $page->getFilename() }}.{{$page->getExtension() }}"
-                        class="flex justify-center text-default hover:text-accent no-underline"
+                        class="flex justify-center text-invers hover:text-accent no-underline"
                     >
                         <span class="inline-block | w-6">
                             @include('_partials.github-svg')
@@ -24,7 +24,7 @@
             </div>
         </header>
 
-        <main class="text-invers text-xl leading-normal">
+        <main class="text-xl lg:text-2xl leading-loose max-w-md mx-auto">
             @yield('content')
         </main>
     </article>

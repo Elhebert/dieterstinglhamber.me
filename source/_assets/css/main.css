@@ -9,12 +9,8 @@
 
 @import 'tailwindcss/utilities';
 
-/* body {
-  background-image: linear-gradient(
-    169.88deg,
-    #2a2c5b -102.05%,
-    #f74b84 1227.07%
-  );
+body {
+  background: linear-gradient(180deg, #2F096D 0%, var(--bg-screen) 100%);
   background-repeat: no-repeat;
   background-size: cover;
-} */
+}

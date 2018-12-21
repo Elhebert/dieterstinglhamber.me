@@ -20,7 +20,7 @@ class HeadingRenderer implements BlockRendererInterface
         $tag = 'h' . ($block->getLevel() + 1);
 
         $titleFontSize = 5 - $block->getLevel();
-        $class = "text-{$titleFontSize}xl font-bold | mb-6 pt-16";
+        $class = "text-{$titleFontSize}xl text-title font-normal | mb-6 pt-16";
 
         $attrs = [
             'class' => $class,

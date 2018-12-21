@@ -115,6 +115,12 @@ module.exports = {
   */
 
   fonts: {
+    text: [
+      'Fira Sans',
+    ],
+    title: [
+      'Montserrat',
+    ],
     sans: [
       'system-ui',
       'BlinkMacSystemFont',
@@ -130,7 +136,7 @@ module.exports = {
       'sans-serif',
     ],
     serif: [
-      'arvo',
+      // 'arvo',
       'Constantia',
       'Lucida Bright',
       'Lucidabright',

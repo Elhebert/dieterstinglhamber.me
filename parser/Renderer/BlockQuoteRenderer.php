@@ -18,7 +18,7 @@ class BlockQuoteRenderer implements BlockRendererInterface
         }
 
         $attrs = [
-            'class' => 'mb-8 mx-2 px-4 | border-l-4 border-accent | italic',
+            'class' => 'mb-8 mx-2 px-4 | border-l-4 border-accent | font-serif italic',
         ];
 
         foreach ($block->getData('attributes', []) as $key => $value) {

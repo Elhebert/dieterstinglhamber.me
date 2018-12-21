@@ -7,7 +7,7 @@
         <a
             href="{{ $page->github_profile }}"
             title="Github"
-            class="text-invers no-underline | inline-block w-8"
+            class="text-default no-underline | inline-block w-8"
         >
             @include('_partials.github-svg')
         </a>

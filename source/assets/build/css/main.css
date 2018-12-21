@@ -494,30 +494,10 @@ table {
 }
 
 :root {
-  --text-default: #333;
-  --text-invers: #333;
-  --text-accent: #7178bc;
-  --bg-screen: #fafafa;
-  --text-default-dark: #7178bc;
-  --text-invers-dark: #fff;
-  --text-accent-dark: #f74b64;
-  --bg-screen-dark: #421e70;
-}
-
-.dark-mode {
-  --text-default: var(--text-default-dark);
-  --text-invers: var(--text-invers-dark);
-  --text-accent: var(--text-accent-dark);
-  --bg-screen: var(--bg-screen-dark);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text-default: var(--text-default-dark);
-    --text-invers: var(--text-invers-dark);
-    --text-accent: var(--text-accent-dark);
-    --bg-screen: var(--bg-screen-dark);
-  }
+  --text-default: #eae2f8;
+  --text-invers: #a081d9;
+  --text-accent: #4098d7;
+  --bg-screen: #240754;
 }
 
 .container {
@@ -1434,12 +1414,20 @@ p code {
   clear: both;
 }
 
+.font-text {
+  font-family: Fira Sans;
+}
+
+.font-title {
+  font-family: Montserrat;
+}
+
 .font-sans {
   font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 .font-serif {
-  font-family: arvo, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+  font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
 }
 
 .font-mono {
@@ -3867,15 +3855,12 @@ p code {
   z-index: auto;
 }
 
-/* body {
-  background-image: linear-gradient(
-    169.88deg,
-    #2a2c5b -102.05%,
-    #f74b84 1227.07%
-  );
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#2f096d), to(var(--bg-screen)));
+  background: linear-gradient(180deg, #2f096d 0%, var(--bg-screen) 100%);
   background-repeat: no-repeat;
   background-size: cover;
-} */
+}
 
 @media (min-width: 576px) {
   .sm\:list-reset {
@@ -4693,12 +4678,20 @@ p code {
     clear: both;
   }
 
+  .sm\:font-text {
+    font-family: Fira Sans;
+  }
+
+  .sm\:font-title {
+    font-family: Montserrat;
+  }
+
   .sm\:font-sans {
     font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .sm\:font-serif {
-    font-family: arvo, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+    font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   }
 
   .sm\:font-mono {
@@ -7927,12 +7920,20 @@ p code {
     clear: both;
   }
 
+  .md\:font-text {
+    font-family: Fira Sans;
+  }
+
+  .md\:font-title {
+    font-family: Montserrat;
+  }
+
   .md\:font-sans {
     font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .md\:font-serif {
-    font-family: arvo, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+    font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   }
 
   .md\:font-mono {
@@ -11161,12 +11162,20 @@ p code {
     clear: both;
   }
 
+  .lg\:font-text {
+    font-family: Fira Sans;
+  }
+
+  .lg\:font-title {
+    font-family: Montserrat;
+  }
+
   .lg\:font-sans {
     font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .lg\:font-serif {
-    font-family: arvo, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+    font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   }
 
   .lg\:font-mono {
@@ -14395,12 +14404,20 @@ p code {
     clear: both;
   }
 
+  .xl\:font-text {
+    font-family: Fira Sans;
+  }
+
+  .xl\:font-title {
+    font-family: Montserrat;
+  }
+
   .xl\:font-sans {
     font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .xl\:font-serif {
-    font-family: arvo, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+    font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   }
 
   .xl\:font-mono {
