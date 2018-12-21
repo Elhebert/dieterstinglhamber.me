@@ -1,27 +1,65 @@
 @font-face {
-  font-family: 'Arvo';
-  src: url('../fonts/arvo-bold.woff2') format('woff2'), url('../fonts/arvo-bold.woff') format('woff');
-  font-weight: bold;
+  font-family: 'Fira Sans';
+  src: url('../fonts/FiraSans-Regular.eot');
+  src: url('../fonts/FiraSans-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/FiraSans-Regular.woff2') format('woff2'), url('../fonts/FiraSans-Regular.woff') format('woff'), url('../fonts/FiraSans-Regular.ttf') format('truetype'), url('../fonts/FiraSans-Regular.svg#FiraSansRegular') format('svg');
+  font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'arvo';
-  src: url('../fonts/arvo-bolditalic.woff2') format('woff2'), url('../fonts/arvo-bolditalic.woff') format('woff');
-  font-weight: bold;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'aro';
-  src: url('../fonts/arvo-italic.woff2') format('woff2'), url('../fonts/arvo-italic.woff') format('woff');
+  font-family: 'Fira Sans';
+  src: url('../fonts/FiraSans-Italic.eot');
+  src: url('../fonts/FiraSans-Italic.eot?#iefix') format('embedded-opentype'), url('../fonts/FiraSans-Italic.woff2') format('woff2'), url('../fonts/FiraSans-Italic.woff') format('woff'), url('../fonts/FiraSans-Italic.ttf') format('truetype'), url('../fonts/FiraSans-Italic.svg#FiraSansItalic') format('svg');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'aro';
-  src: url('../fonts/arvo-regular.woff2') format('woff2'), url('../fonts/arvo-regular.woff') format('woff');
-  font-weight: normal;
+  font-family: 'Fira Sans';
+  src: url('../fonts/FiraSans-Bold.eot');
+  src: url('../fonts/FiraSans-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/FiraSans-Bold.woff2') format('woff2'), url('../fonts/FiraSans-Bold.woff') format('woff'), url('../fonts/FiraSans-Bold.ttf') format('truetype'), url('../fonts/FiraSans-Bold.svg#FiraSansBold') format('svg');
+  font-weight: bold;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../fonts/FiraSans-BoldItalic.eot');
+  src: url('../fonts/FiraSans-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/FiraSans-BoldItalic.woff2') format('woff2'), url('../fonts/FiraSans-BoldItalic.woff') format('woff'), url('../fonts/FiraSans-BoldItalic.ttf') format('truetype'), url('../fonts/FiraSans-BoldItalic.svg#FiraSansBold Italic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../fonts/FiraSans-SemiBold.eot');
+  src: url('../fonts/FiraSans-SemiBold.eot?#iefix') format('embedded-opentype'), url('../fonts/FiraSans-SemiBold.woff2') format('woff2'), url('../fonts/FiraSans-SemiBold.woff') format('woff'), url('../fonts/FiraSans-SemiBold.ttf') format('truetype'), url('../fonts/FiraSans-SemiBold.svg#FiraSansSemiBold') format('svg');
+  font-weight: semibold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../fonts/FiraSans-SemiBoldItalic.eot');
+  src: url('../fonts/FiraSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/FiraSans-SemiBoldItalic.woff2') format('woff2'), url('../fonts/FiraSans-SemiBoldItalic.woff') format('woff'), url('../fonts/FiraSans-SemiBoldItalic.ttf') format('truetype'), url('../fonts/FiraSans-SemiBoldItalic.svg#FiraSansSemiBold Italic') format('svg');
+  font-weight: semibold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/montserrat-regular-webfont.eot");
+  src: url("../fonts/montserrat-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/montserrat-regular-webfont.woff") format("woff"), url("../fonts/montserrat-regular-webfont.ttf") format("truetype");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/montserrat-bold-webfont.eot");
+  src: url("../fonts/montserrat-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-bold-webfont.woff2") format("woff2"), url("../fonts/montserrat-bold-webfont.woff") format("woff"), url("../fonts/montserrat-bold-webfont.ttf") format("truetype");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
