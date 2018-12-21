@@ -9,6 +9,11 @@
 
 @import 'tailwindcss/utilities';
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
   background: linear-gradient(180deg, #2F096D 0%, var(--bg-screen) 100%);
   background-repeat: no-repeat;

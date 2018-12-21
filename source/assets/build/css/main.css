@@ -3855,6 +3855,11 @@ p code {
   z-index: auto;
 }
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
   background: -webkit-gradient(linear, left top, left bottom, from(#2f096d), to(var(--bg-screen)));
   background: linear-gradient(180deg, #2f096d 0%, var(--bg-screen) 100%);
