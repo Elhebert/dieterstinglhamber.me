@@ -3,3 +3,75 @@
 command = "npm run production"
 publish = "build_production"
 environment = { PHP_VERSION = "7.2" }
+
+[[redirects]]
+from = "/we-are-all-stupid-thus-nobody-is"
+to = "/blog/we-are-all-stupid-thus-nobody-is"
+status = 301
+force = false
+
+[[redirects]]
+from = "/I-attempted-to-run-a-marathon"
+to = "/blog/i-attempted-to-run-a-marathon"
+status = 301
+force = false
+
+[[redirects]]
+from = "/remove-the-xsrf-cookie-programmatically-in-laravel-57"
+to = "/blog/remove-the-xsrf-cookie-programmatically-in-laravel-5.7"
+status = 301
+force = false
+
+[[redirects]]
+from = "/gdpr-consent-and-cookies-are-sitting-in-a-tree"
+to = "/blog/gdpr-consent-and-cookies-are-sitting-in-a-tree"
+status = 301
+force = false
+
+[[redirects]]
+from = "/taking-the-donottrack-header-into-account"
+to = "/blog/taking-the-donottrack-header-into-account"
+status = 301
+force = false
+
+[[redirects]]
+from = "/gdpr-compliant-tracking"
+to = "/blog/gdpr-compliant-tracking"
+status = 301
+force = false
+
+[[redirects]]
+from = "/join-the-light-side-we-have-no-cookies"
+to = "/blog/join-the-light-side-we-have-no-cookies"
+status = 301
+force = false
+
+[[redirects]]
+from = "/the-good-the-bad-and-the-ugly-of-seeding-data-in-production"
+to = "/blog/the-good-the-bad-and-the-ugly-of-seeding-data-in-production"
+status = 301
+force = false
+
+[[redirects]]
+from = "/a-year-at-altavia-act"
+to = "/blog/a-year-at-altavia-act"
+status = 301
+force = false
+
+[[redirects]]
+from = "/what-is-this"
+to = "/blog/what-is-this"
+status = 301
+force = false
+
+[[redirects]]
+from = "/from-2017-to-2018"
+to = "/blog/from-2017-to-2018"
+status = 301
+force = false
+
+[[redirects]]
+from = "/invest-in-you"
+to = "/blog/invest-in-you"
+status = 301
+force = false

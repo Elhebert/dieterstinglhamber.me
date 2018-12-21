@@ -28,7 +28,3 @@ mix
     folders: ['source'],
   })
   .sourceMaps()
-
-if (mix.inProduction()) {
-  mix.copy('_redirects.txt', './build_production/_redirects.txt')
-}
