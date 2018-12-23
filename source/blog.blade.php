@@ -1,5 +1,14 @@
 @extends('_layouts.master')
 
+@section('meta')
+    <meta property="description" content="The list of blog posts for {{ $page->siteName }}" />
+
+    <meta property="og:title" content="{{ $page->siteName }} Blog" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ $page->getUrl() }}"/>
+    <meta property="og:description" content="The list of blog posts for {{ $page->siteName }}" />
+@endsection
+
 @section('body')
 <main class="flex-grow | container mx-auto | pt-16">
     <div class="mx-4 lg:mx-auto max-w-lg">
@@ -7,22 +16,7 @@
 
         <ul class="list-reset">
             @foreach ($posts as $post)
-                <li class="mb-16">
-                    <span class="text-sm text-invers | block">
-                        Written in #{{ $post->tag }} <time>{{ date('M d, Y', $post->date) }}</time>
-                    </span>
-
-                    <h3 class="text-2xl font-normal">{{ $post->title }}</h3>
-
-                    <p class="mt-6 text-lg leading-normal">{{ $post->summary }}</p>
-
-                    <a
-                        href="{{ $post->getUrl() }}"
-                        class="text-sm text-accent no-underline hover:underline | block | mt-6"
-                    >
-                        read more...
-                    </a>
-                </li>
+                @include('_components.post-preview-inline')
             @endforeach
         </ul>
     </div>

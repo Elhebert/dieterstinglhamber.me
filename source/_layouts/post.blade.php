@@ -1,5 +1,14 @@
 @extends('_layouts.master')
 
+@section('meta')
+    <meta property="description" content="{{ $page->excerpt() }}" />
+
+    <meta property="og:title" content="{{ $page->title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ $page->getUrl() }}"/>
+    <meta property="og:description" content="{{ $page->excerpt() }}" />
+@endsection
+
 @section('body')
 <main class="flex-grow | container mx-auto">
     <article class="mx-4 lg:mx-auto max-w-lg">

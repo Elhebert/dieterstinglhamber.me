@@ -5,8 +5,7 @@
     <div class="mx-4 lg:mx-auto max-w-lg">
         <h2 class="waving | text-5xl text-default mb-16 font-normal font-title">
             Hey there, <span class="inline-block | hand">👋</span><br>
-            I'm Dieter,<br>
-            developer, human, nerd.
+            I'm Dieter, developer, human, nerd.
         </h2>
 
         <p class="text-invers text-2xl leading-normal lg:leading-loose | my-8">

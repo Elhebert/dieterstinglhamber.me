@@ -1,7 +1,16 @@
 @extends('_layouts.master')
 
+@section('meta')
+    <meta property="description" content="{{ $page->siteDescription }}" />
+
+    <meta property="og:title" content="About {{ $page->siteName }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ $page->getUrl() }}"/>
+    <meta property="og:description" content="{{ $page->siteDescription }}" />
+@endsection
+
 @section('body')
-<main class="flex-grow | container mx-auto | leading-loose text-xl">
+<main class="flex-grow | container mx-auto | leading-loose text-lg">
     <div class="mx-4 max-w-md lg:mx-auto">
         <h2 class="text-5xl font-normal font-title | mb-16 mt-16">
             About me 🧞‍♂️
@@ -23,7 +32,7 @@
             Experience
         </h3>
 
-        <p class="mb-8">
+        <p class="mb-8 font-normal">
             My first job was as a <strong class="font-semibold">Cloud Backend Engineer</strong>, which is just a fancy title to hide the fact that I was a Fullstack Developer. I worked for a telecom company that specialized in Unified Communication.
         </p>
 

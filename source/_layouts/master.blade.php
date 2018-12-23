@@ -8,9 +8,19 @@
         <link rel="stylesheet" href="{{ mix('css/fonts.css', 'assets/build') }}">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 
-        <meta name="description" content="26 years old nerd, passionate by web development, RPG's, fantasy books, Belgian beers and computers.">
+        @section('meta')
+            <meta property="description" content="{{ $page->siteDescription }}" />
 
-        <title>Dieter Stinglhamber</title>
+            <meta property="og:title" content="{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}" />
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="{{ $page->getUrl() }}" />
+            <meta property="og:description" content="{{ $page->siteDescription }}" />
+        @show
+
+        <title>{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}</title>
+
+        <link rel="home" href="{{ $page->baseUrl }}">
+        <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed">
 
         <link rel="me" href="https://dieterstinglhamber.me" type="text/html">
     </head>

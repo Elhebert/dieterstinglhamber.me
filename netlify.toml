@@ -18,7 +18,7 @@ force = false
 
 [[redirects]]
 from = "/remove-the-xsrf-cookie-programmatically-in-laravel-57"
-to = "/blog/remove-the-xsrf-cookie-programmatically-in-laravel-5.7"
+to = "/blog/remove-the-xsrf-cookie-programmatically-in-laravel-5-7"
 status = 301
 force = false
 
@@ -73,5 +73,11 @@ force = false
 [[redirects]]
 from = "/invest-in-you"
 to = "/blog/invest-in-you"
+status = 301
+force = false
+
+[[redirects]]
+from = "/feed"
+to = "/blog/feed.atom"
 status = 301
 force = false
