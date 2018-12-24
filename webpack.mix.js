@@ -25,6 +25,7 @@ mix
   })
   .version()
   .purgeCss({
+    extensions: ['html', 'md', 'js', 'php'],
     folders: ['source'],
   })
   .sourceMaps()
