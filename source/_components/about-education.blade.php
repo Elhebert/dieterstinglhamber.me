@@ -1,6 +1,6 @@
 <ul class="list-reset">
     <li class="flex my-4">
-        <div class="w-10 h-10 bg-invers p-2 mr-3 rounded-full">
+        <div class="w-10 h-10 bg-invers p-2 mr-3 rounded-full flex-no-shrink">
             @include('_partials.icon-certificate')
         </div>
         <div>
@@ -22,7 +22,7 @@
     </li>
 
     <li class="flex my-4">
-        <div class="w-10 h-10 bg-invers p-2 mr-3 rounded-full">
+        <div class="w-10 h-10 bg-invers p-2 mr-3 rounded-full flex-no-shrink">
             @include('_partials.icon-certificate')
         </div>
         <div>
@@ -36,7 +36,7 @@
     </li>
 
     <li class="flex my-4">
-        <div class="w-10 h-10 bg-invers p-2 mr-3 rounded-full">
+        <div class="w-10 h-10 bg-invers p-2 mr-3 rounded-full flex-no-shrink">
             @include('_partials.icon-certificate')
         </div>
         <div>
