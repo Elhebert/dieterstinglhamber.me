@@ -83,7 +83,7 @@ status = 301
 force = false
 
 [[redirects]]
-from "https://dieter.is/*"
+from = "https://dieter.is/*"
 to = "https://www.dieterstinglhamber.me/"
 status = 301
 force= true
