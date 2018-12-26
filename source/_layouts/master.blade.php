@@ -8,6 +8,14 @@
         <link rel="stylesheet" href="{{ mix('css/fonts.css', 'assets/build') }}">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 
+        <link rel="apple-touch-icon" sizes="180x180" href="/webmanifest/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/webmanifest/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/webmanifest/favicon-16x16.png">
+        <link rel="manifest" href="/webmanifest/site.webmanifest">
+        <link rel="mask-icon" href="/webmanifest/safari-pinned-tab.svg" color="#2d0968">
+        <meta name="msapplication-TileColor" content="#2d0968">
+        <meta name="theme-color" content="#2d0968">
+
         @section('meta')
             <meta name="description" content="{{ $page->siteDescription }}" />
 
