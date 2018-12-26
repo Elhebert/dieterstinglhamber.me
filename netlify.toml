@@ -81,3 +81,27 @@ from = "/feed"
 to = "/blog/feed.atom"
 status = 301
 force = false
+
+[[redirects]]
+from "https://dieter.is/*"
+to = "https://www.dieterstinglhamber.me/"
+status = 301
+force= true
+
+[[redirects]]
+from "https://dieter.stinglhamber.co/*"
+to = "https://www.dieterstinglhamber.me/"
+status = 301
+force= true
+
+[[redirects]]
+from "https://elhebert.be/*"
+to = "https://www.dieterstinglhamber.me/"
+status = 301
+force= true
+
+[[redirects]]
+from "https://competent-pike-3e3e7a.netlify.com/*"
+to = "https://www.dieterstinglhamber.me/:splat"
+status = 301
+force= true
