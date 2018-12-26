@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('meta')
-    <meta property="description" content="{{ $page->excerpt() }}" />
+    <meta name="description" content="{{ $page->excerpt() }}" />
 
     <meta property="og:title" content="{{ $page->title }}" />
     <meta property="og:type" content="website" />

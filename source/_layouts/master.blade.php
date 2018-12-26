@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 
         @section('meta')
-            <meta property="description" content="{{ $page->siteDescription }}" />
+            <meta name="description" content="{{ $page->siteDescription }}" />
 
             <meta property="og:title" content="{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}" />
             <meta property="og:type" content="website" />
