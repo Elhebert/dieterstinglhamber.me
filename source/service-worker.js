@@ -51,32 +51,11 @@ self.addEventListener('fetch', event => {
     return
   }
 
-  if (
-    event.request.mode === 'navigate' ||
-    event.request.headers.get('accept').includes('text/html')
-  ) {
-    event.respondWith(
-      fetch(event.request.url)
-        .then(response => {
-          return response.redirected
-            ? Response.redirect(response.url)
-            : response
-        })
-        .catch(() => {
-          return caches.match(event.request).then(response => {
-            return response || fetch(event.request, { cache: 'force-cache' }).catch(() => {
-              return caches.match('/offline')
-            })
-          })
-        })
-    )
-  } else {
-    event.respondWith(
-      caches.match(event.request).then(response => {
-        return response || fetch(event.request, { cache: 'force-cache' })
-      })
-    )
-  }
+  event.respondWith(
+    caches.match(event.request).then(response => {
+      return response || fetch(event.request, { cache: 'force-cache' })
+    })
+  )
 })
 
 // Cache clean up
