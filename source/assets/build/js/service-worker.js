@@ -1,6 +1,6 @@
 'use strict'
 
-const cacheVersion = '0.0.1'
+const cacheVersion = '0.0.2'
 const currentCache = {
   offline: `offline-cache-${cacheVersion}`,
 }
@@ -27,7 +27,6 @@ self.addEventListener('install', event => {
           '/blog/what-is-this',
           '/blog/from-2017-to-2018',
           '/blog/invest-in-you',
-          '/assets/build/js/main.js',
           '/assets/build/css/main.css',
           '/assets/build/css/hljs.css',
           '/assets/build/css/fonts.css',
