@@ -30,7 +30,11 @@
         <link rel="home" href="{{ $page->baseUrl }}">
         <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed">
 
-        <script src="/assets/build/js/main.js"></script>
+        <script>
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('/assets/build/js/service-worker.js')
+            }
+        </script>
 
         <link rel="me" href="https://dieterstinglhamber.me" type="text/html">
     </head>

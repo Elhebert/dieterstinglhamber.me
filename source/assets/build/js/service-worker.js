@@ -12,6 +12,7 @@ self.addEventListener('install', event => {
       .then(cache => {
         return cache.addAll([
           '/',
+          '/404.html',
           '/webmanifest/site.webmanifest',
           '/blog',
           '/blog/we-are-all-stupid-thus-nobody-is',
