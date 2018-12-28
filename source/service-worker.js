@@ -1,6 +1,6 @@
 'use strict'
 
-const cacheVersion = '0.1.0'
+const cacheVersion = '0.1.1'
 const currentCache = {
   offline: `offline-cache-${cacheVersion}`,
 }
@@ -13,24 +13,24 @@ self.addEventListener('install', event => {
         return cache.addAll([
           '/',
           '/404.html',
-          '/offline',
-          '/about',
+          '/offline/',
+          '/about/',
           '/webmanifest/site.webmanifest',
           '/webmanifest/favicon-16x16.png',
           '/webmanifest/favicon-32x32.png',
-          '/blog',
-          '/blog/we-are-all-stupid-thus-nobody-is',
-          '/blog/i-attempted-to-run-a-marathon',
-          '/blog/remove-the-xsrf-cookie-programmatically-in-laravel-5-7',
-          '/blog/gdpr-consent-and-cookies-are-sitting-in-a-tree',
-          '/blog/taking-the-donottrack-header-into-account',
-          '/blog/gdpr-compliant-tracking',
-          '/blog/join-the-light-side-we-have-no-cookies',
-          '/blog/the-good-the-bad-and-the-ugly-of-seeding-data-in-production',
-          '/blog/a-year-at-altavia-act',
-          '/blog/what-is-this',
-          '/blog/from-2017-to-2018',
-          '/blog/invest-in-you',
+          '/blog/',
+          '/blog/we-are-all-stupid-thus-nobody-is/',
+          '/blog/i-attempted-to-run-a-marathon/',
+          '/blog/remove-the-xsrf-cookie-programmatically-in-laravel-5-7/',
+          '/blog/gdpr-consent-and-cookies-are-sitting-in-a-tree/',
+          '/blog/taking-the-donottrack-header-into-account/',
+          '/blog/gdpr-compliant-tracking/',
+          '/blog/join-the-light-side-we-have-no-cookies/',
+          '/blog/the-good-the-bad-and-the-ugly-of-seeding-data-in-production/',
+          '/blog/a-year-at-altavia-act/',
+          '/blog/what-is-this/',
+          '/blog/from-2017-to-2018/',
+          '/blog/invest-in-you/',
           '/assets/build/css/main.css',
           '/assets/build/css/hljs.css',
           '/assets/build/css/fonts.css',
@@ -52,19 +52,9 @@ self.addEventListener('fetch', event => {
     return
   }
 
-  if (
-    event.request.mode === 'navigate' ||
-    event.request.headers.get('accept').includes('text/html')
-  ) {
-    event.respondWith(
-      fromNetwork(event.request.url)
-        .catch(() => {
-          return fromCache(event.request.url)
-        })
-    )
-  } else {
-    event.respondWith(fromCache(event.request))
-  }
+  event.respondWith(caches.match(request).then(response => {
+    return response || fetch(request, { cache: 'force-cache' })
+  }))
 })
 
 // Cache clean up
@@ -83,23 +73,3 @@ self.addEventListener('activate', event => {
     })
   )
 })
-
-function fromNetwork(request) {
-  return new Promise((fulfill, reject) => {
-    const timeOutId = setTimeout(reject, timeout)
-
-    fetch(request)
-      .then(response => {
-        clearTimeout(timeOutId)
-        fulfill(response.redirected
-          ? Response.redirect(response.url)
-          : response)
-      }, reject)
-  })
-}
-
-function fromCache(request) {
-  return caches.match(request).then(response => {
-    return response || fetch(request, { cache: 'force-cache' })
-  })
-}
