@@ -30,6 +30,8 @@
         <link rel="home" href="{{ $page->baseUrl }}">
         <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed">
 
+        <script src="/assets/build/js/main.js"></script>
+
         <link rel="me" href="https://dieterstinglhamber.me" type="text/html">
     </head>
     <body class="font-text min-h-screen | flex flex-col | bg-screen text-default">
