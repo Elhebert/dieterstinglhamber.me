@@ -1,6 +1,6 @@
 'use strict'
 
-const cacheVersion = '0.0.2'
+const cacheVersion = '0.1.0'
 const currentCache = {
   offline: `offline-cache-${cacheVersion}`,
 }
@@ -13,7 +13,10 @@ self.addEventListener('install', event => {
         return cache.addAll([
           '/',
           '/404.html',
+          '/offline',
           '/webmanifest/site.webmanifest',
+          '/webmanifest/favicon-16x16.png',
+          '/webmanifest/favicon-32x32.png',
           '/blog',
           '/blog/we-are-all-stupid-thus-nobody-is',
           '/blog/i-attempted-to-run-a-marathon',
@@ -48,28 +51,11 @@ self.addEventListener('fetch', event => {
     return
   }
 
-  if (
-    event.request.mode === 'navigate' ||
-    event.request.headers.get('accept').includes('text/html')
-  ) {
-    event.respondWith(
-      fetch(event.request.url)
-        .then(response => {
-          return response.redirected
-            ? Response.redirect(response.url)
-            : response
-        })
-        .catch(() => {
-          return caches.match('/404.html')
-        })
-    )
-  } else {
-    event.respondWith(
-      caches.match(event.request).then(response => {
-        return response || fetch(event.request, { cache: 'force-cache' })
-      })
-    )
-  }
+  event.respondWith(
+    caches.match(event.request).then(response => {
+      return response || fetch(event.request, { cache: 'force-cache' })
+    })
+  )
 })
 
 // Cache clean up
