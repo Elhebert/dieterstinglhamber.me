@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://dieterstinglhamber.me',
+    'baseUrl' => 'https://www.dieterstinglhamber.me',
     'production' => true,
 ];
