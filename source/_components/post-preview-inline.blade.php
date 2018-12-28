@@ -8,7 +8,7 @@
     <p class="mt-6 text-lg leading-normal">{{ $post->excerpt() }}</p>
 
     <a
-        href="{{ $post->getUrl() }}"
+        href="{{ $post->getUrl() }}/"
         title="Read more - {{ $post->title }}"
         class="text-sm text-accent no-underline hover:underline | block | mt-6"
     >

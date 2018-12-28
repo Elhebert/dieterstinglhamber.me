@@ -12,7 +12,7 @@
         <ul class="list-reset | font-bold text-xl | flex">
             <li>
                 <a
-                    href="{{ $page->baseUrl }}/about"
+                    href="{{ $page->baseUrl }}/about/"
                     class="mr-6 {{ $page->active('about') }} hover:text-accent no-underline"
                 >
                     about
@@ -20,7 +20,7 @@
             </li>
             <li>
                 <a
-                    href="{{ $page->baseUrl }}/blog"
+                    href="{{ $page->baseUrl }}/blog/"
                     class="mx-6 {{ $page->active('blog') }} hover:text-accent no-underline"
                 >
                     blog
