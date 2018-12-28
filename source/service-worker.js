@@ -1,6 +1,6 @@
 'use strict'
 
-const cacheVersion = '0.1.1'
+const cacheVersion = '0.1.2'
 const currentCache = {
   offline: `offline-cache-${cacheVersion}`,
 }
@@ -52,9 +52,11 @@ self.addEventListener('fetch', event => {
     return
   }
 
-  event.respondWith(caches.match(request).then(response => {
-    return response || fetch(request, { cache: 'force-cache' })
-  }))
+  event.respondWith(
+    caches.match(event.request).then(response => {
+      return response || fetch(event.request, { cache: 'force-cache' })
+    })
+  )
 })
 
 // Cache clean up
