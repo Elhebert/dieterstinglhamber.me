@@ -7,7 +7,7 @@ permalink: 404.html
 @section('body')
 <main class="flex-grow | pt-16 lg:flex lg:flex-col lg:justify-center | container mx-auto | text-center">
     <div class="mx-4 lg:mx-auto max-w-lg">
-        <h2 class="waving | text-5xl text-invers mb-16 font-normal font-title">
+        <h2 class="text-5xl text-invers mb-16 font-normal font-title">
             404
         </h2>
 

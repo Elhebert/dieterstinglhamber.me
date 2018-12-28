@@ -27,6 +27,14 @@
                     blog
                 </a>
             </li>
+            <li>
+                <a
+                    href="{{ $page->baseUrl }}/uses/"
+                    class="mx-6 {{ $page->active('uses') }} hover:text-accent no-underline"
+                >
+                    uses
+                </a>
+            </li>
         </ul>
     </nav>
 </header>

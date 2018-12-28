@@ -33,7 +33,8 @@
         </h3>
 
         <p class="mb-8">
-            In my personal time I like to read (mostly Heroic Fantasy books), travelling, running, biking and play video games.</p>
+            In my personal time I like to read (mostly Heroic Fantasy books), travelling, running, biking and play video games.
+        </p>
 
         <p class="mb-8">
             I also enjoy table top games, my favorites so far are <em>A Ticket To Ride</em> and <em>SmallWorld</em>. I've been a Dungeon Master for <em>Le Donjon de Naheulbeuk</em> and <em>Dragon Age</em> campaigns (table top RPGs).
