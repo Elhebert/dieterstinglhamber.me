@@ -22,7 +22,7 @@ class ParagraphRenderer implements BlockRendererInterface
         }
 
         $attrs = [
-            'class' => 'mb-8',
+            'class' => 'mb-10',
         ];
 
         foreach ($block->getData('attributes', []) as $key => $value) {

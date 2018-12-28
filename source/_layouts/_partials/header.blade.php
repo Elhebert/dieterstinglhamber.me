@@ -1,6 +1,7 @@
 <header class="flex justify-between items-center | my-4 mx-4 lg:mx-24">
     <h1 class="text-4xl font-bold">
         <a
+            title="Home"
             href="{{ $page->baseUrl }}/"
             class="no-underline text-invers hover:text-accent"
         >

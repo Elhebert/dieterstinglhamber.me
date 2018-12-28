@@ -10,6 +10,9 @@
                     href="https://exam.laravelcert.com/is/dieter-stinglhamber/certified-since/2018-12-18?"
                 >
                     Laravel certification
+                    (<span class="text-accent">link
+                        @include('_partials.link')
+                    </span>)
                 </a>
             </p>
             <p class="text-invers">

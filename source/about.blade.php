@@ -22,13 +22,13 @@
 
         @include('_components.about-education')
 
-        <h3 class="text-4xl font-normal font-title | mb-6">
+        <h3 class="text-4xl font-normal font-title | mt-16 mb-6">
             Experience
         </h3>
 
         @include('_components.about-experience')
 
-        <h3 class="text-4xl font-normal font-title | mb-6">
+        <h3 class="text-4xl font-normal font-title | mt-16 mb-6">
             Outside of work
         </h3>
 
