@@ -63,13 +63,11 @@ self.addEventListener('fetch', event => {
             : response
         })
         .catch(() => {
-          event.respondWith(
-            caches.match(event.request).then(response => {
-              return response || fetch(event.request, { cache: 'force-cache' }).catch(() => {
-                return caches.match('/offline')
-              })
+          caches.match(event.request).then(response => {
+            return response || fetch(event.request, { cache: 'force-cache' }).catch(() => {
+              return caches.match('/offline')
             })
-          )
+          })
         })
     )
   } else {
