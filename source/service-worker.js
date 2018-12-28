@@ -1,6 +1,6 @@
 'use strict'
 
-const cacheVersion = '0.2.0'
+const cacheVersion = '0.2.1'
 const currentCache = {
   offline: `offline-cache-${cacheVersion}`,
 }
@@ -15,6 +15,7 @@ self.addEventListener('install', event => {
           '/404.html',
           '/offline/',
           '/about/',
+          '/uses/',
           '/webmanifest/site.webmanifest',
           '/webmanifest/favicon-16x16.png',
           '/webmanifest/favicon-32x32.png',
