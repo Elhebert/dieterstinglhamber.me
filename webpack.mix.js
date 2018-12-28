@@ -23,7 +23,6 @@ mix
     ],
     processCssUrls: false,
   })
-  .version()
   .purgeCss({
     extensions: ['html', 'md', 'js', 'php'],
     folders: ['source', 'parser/Renderer'],
