@@ -32,7 +32,7 @@
 
         <script>
             if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('/assets/build/js/service-worker.js')
+                navigator.serviceWorker.register('/service-worker.js')
             }
         </script>
 
