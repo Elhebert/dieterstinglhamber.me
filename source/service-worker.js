@@ -14,6 +14,7 @@ self.addEventListener('install', event => {
           '/',
           '/404.html',
           '/offline',
+          '/about',
           '/webmanifest/site.webmanifest',
           '/webmanifest/favicon-16x16.png',
           '/webmanifest/favicon-32x32.png',
@@ -51,11 +52,19 @@ self.addEventListener('fetch', event => {
     return
   }
 
-  event.respondWith(
-    caches.match(event.request).then(response => {
-      return response || fetch(event.request, { cache: 'force-cache' })
-    })
-  )
+  if (
+    event.request.mode === 'navigate' ||
+    event.request.headers.get('accept').includes('text/html')
+  ) {
+    event.respondWith(
+      fromNetwork(event.request.url)
+        .catch(() => {
+          return fromCache(event.request.url)
+        })
+    )
+  } else {
+    event.respondWith(fromCache(event.request))
+  }
 })
 
 // Cache clean up
@@ -74,3 +83,23 @@ self.addEventListener('activate', event => {
     })
   )
 })
+
+function fromNetwork(request) {
+  return new Promise((fulfill, reject) => {
+    const timeOutId = setTimeout(reject, timeout)
+
+    fetch(request)
+      .then(response => {
+        clearTimeout(timeOutId)
+        fulfill(response.redirected
+          ? Response.redirect(response.url)
+          : response)
+      }, reject)
+  })
+}
+
+function fromCache(request) {
+  return caches.match(request).then(response => {
+    return response || fetch(request, { cache: 'force-cache' })
+  })
+}
