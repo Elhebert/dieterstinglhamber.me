@@ -1,6 +1,6 @@
 {
     "name": "D. Stinglhamber",
-    "short_name": "D. Stinglhamber",
+    "short_name": "D. Sting",
     "icons": [
         {
             "src": "/webmanifest/android-chrome-192x192.png",
@@ -14,5 +14,6 @@
         }
     ],
     "theme_color": "#2d0968",
-    "background_color": "#2d0968"
+    "background_color": "#2d0968",
+    "display": "standalone"
 }
