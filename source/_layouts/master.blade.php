@@ -18,10 +18,6 @@
 
         @section('meta')
             <meta name="description" content="{{ $page->siteDescription }}" />
-
-            <meta property="og:title" content="{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}" />
-            <meta property="og:type" content="website" />
-            <meta property="og:url" content="{{ $page->getUrl() }}" />
             <meta property="og:description" content="{{ $page->siteDescription }}" />
         @show
 
@@ -30,8 +26,10 @@
         <meta name="twitter:dnt" content="on">
 
         <meta property="og:site_name" content="{{ $page->siteName }}">
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="{{ $page->title ? "{$page->title} | " : '' }}{{ $page->siteName }}" />
 
-        <title>{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}</title>
+        <title>{{ $page->title ? "{$page->title} | " : '' }}{{ $page->siteName }}</title>
 
         <link rel="home" href="{{ $page->baseUrl }}">
         <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed">

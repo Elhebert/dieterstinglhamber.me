@@ -1,13 +1,8 @@
+---
+title: About
+---
+
 @extends('_layouts.master')
-
-@section('meta')
-    <meta name="description" content="{{ $page->siteDescription }}" />
-
-    <meta property="og:title" content="About {{ $page->siteName }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ $page->getUrl() }}"/>
-    <meta property="og:description" content="{{ $page->siteDescription }}" />
-@endsection
 
 @section('body')
 <main class="flex-grow | container mx-auto | leading-loose text-lg">
