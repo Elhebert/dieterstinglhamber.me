@@ -17,7 +17,7 @@ class HeadingRenderer implements BlockRendererInterface
             throw new \InvalidArgumentException('Incompatible block type: ' . get_class($block));
         }
 
-        $tag = 'h' . ($block->getLevel() + 1);
+        $tag = 'h' . ($block->getLevel() + 2);
 
         $titleFontSize = 5 - $block->getLevel();
         $class = "text-{$titleFontSize}xl text-title font-normal | mb-6 pt-16";

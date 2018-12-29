@@ -1,6 +1,6 @@
 'use strict'
 
-const cacheVersion = '0.2.3'
+const cacheVersion = '0.2.4'
 const currentCache = {
   offline: `offline-cache-${cacheVersion}`,
 }
@@ -20,6 +20,7 @@ self.addEventListener('install', event => {
           '/webmanifest/favicon-16x16.png',
           '/webmanifest/favicon-32x32.png',
           '/blog/',
+          '/blog/2018-looking-back-at-an-awesome-trying-year/',
           '/blog/we-are-all-stupid-thus-nobody-is/',
           '/blog/i-attempted-to-run-a-marathon/',
           '/blog/remove-the-xsrf-cookie-programmatically-in-laravel-5-7/',
