@@ -7,6 +7,11 @@
             <p>
                 <strong>Macbook pro 13" (mid 2012)</strong>, I upgraded it with 8Go of RAM and an SSD to give it a second life (and it's way cheaper than buying a new one).
             </p>
+            <figure class="w-3/4 mx-auto my-4">
+                <img src="https://res.cloudinary.com/elhebert/image/upload/c_scale,dpr_auto,f_auto,w_auto,q_auto/v1546075334/dieterstinglhamber.me/setup/macbook.jpg"
+                    alt="iTerm2">
+                <figcaption class="text-center text-sm text-invers -mt-2">Macbook pro specs</figcaption>
+            </figure>
         </div>
     </li>
 

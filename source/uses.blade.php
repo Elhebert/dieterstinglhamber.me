@@ -20,6 +20,11 @@
             Hardware
         </h3>
 
+        <figure class="w-3/4 mx-auto mb-8">
+            <img src="https://res.cloudinary.com/elhebert/image/upload/c_scale,dpr_auto,f_auto,w_auto,q_auto/v1546076005/dieterstinglhamber.me/setup/setup.jpg" alt="iTerm2">
+            <figcaption class="text-center text-sm text-invers -mt-2">My (messy) home setup</figcaption>
+        </figure>
+
         @include('_components.hardware')
 
         <h3 class="text-4xl font-normal font-title | mb-6">
@@ -27,7 +32,7 @@
         </h3>
 
         <p class="mb-16">
-            You can find more detailled information by browsing my <a href="https://github.com/Elhebert/dotfiles" class="text-accent">dotfiles</a>.
+            You can find more information by browsing my <a href="https://github.com/Elhebert/dotfiles" class="text-accent">dotfiles</a>.
         </p>
 
         @include('_components.software')
