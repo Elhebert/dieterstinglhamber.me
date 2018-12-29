@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: jigsaw
+  branch: master
 
 media_folder: "source/assets/images"
 
