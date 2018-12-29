@@ -25,6 +25,12 @@
             <meta property="og:description" content="{{ $page->siteDescription }}" />
         @show
 
+        <meta name="twitter:creator" content="@elhebert">
+        <meta name="twitter:site" content="@elhebert">
+        <meta name="twitter:dnt" content="on">
+
+        <meta property="og:site_name" content="{{ $page->siteName }}">
+
         <title>{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}</title>
 
         <link rel="home" href="{{ $page->baseUrl }}">

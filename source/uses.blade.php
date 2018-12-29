@@ -1,12 +1,13 @@
 @extends('_layouts.master')
 
 @section('meta')
-    <meta name="description" content="{{ $page->siteDescription }}" />
+    <meta name="description" content="My home setup and the software and apps I use" />
 
-    <meta property="og:title" content="{{ $page->siteName }} uses" />
+    <meta property="og:title" content="My setup" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ $page->getUrl() }}"/>
-    <meta property="og:description" content="{{ $page->siteDescription }}" />
+    <meta property="og:description" content="My home setup and the software and apps I use" />
+    <meta property="og:image" content="https://res.cloudinary.com/elhebert/image/upload/c_scale,dpr_auto,f_auto,w_auto,q_auto/v1546076005/dieterstinglhamber.me/setup/setup.jpg">
 @endsection
 
 @section('body')
