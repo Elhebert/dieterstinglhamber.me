@@ -50,5 +50,40 @@
         @yield('body')
 
         @include('_layouts._partials.footer')
+
+        <script type="application/ld+json">
+            {
+                "@context":"https://schema.org",
+                "@type":"WebPage",
+                "author": {
+                    "@type": "Person",
+                    "name": "Dieter Stinglhamber",
+                    "givenName": "Dieter",
+                    "familyName": "Stinglhamber",
+                    "email": "mailto:dieter.stinglhamber@gmail.com",
+                    "url": "https://www.dieterstinglhamber.me",
+                    "sameAs":[
+                        "https://twitter.com/Elhebert",
+                        "https://github.com/Elhebert"
+                    ]
+                }
+            }
+        </script>
+
+        <script type="text/javascript">
+            var _paq = _paq || [];
+            _paq.push(['trackPageView']);
+            _paq.push(['disableCookies']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+                var u="//analytics.elhebert.be/";
+                _paq.push(['setTrackerUrl', u+'piwik.php']);
+                _paq.push(['setSiteId', '1']);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+            })();
+
+            <noscript><p><img src="//analytics.elhebert.be/piwik.php?idsite=1&rec=1" style="border:0;" alt="" /></p></noscript>
+        </script>
     </body>
 </html>
