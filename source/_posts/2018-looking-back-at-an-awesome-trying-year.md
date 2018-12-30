@@ -94,3 +94,20 @@ My brother offered me to participate at a **promo triathlon** (500m swimming, 20
 I'm also going to **rerun a marathon**, but this time I want to finish it.
 
 Tech-wise I just want to keep improving. I have **2 projects in mind for 2019**, those are projects I've been putting aside for some time and that I really want to work on.
+
+---
+
+# Other people review
+
+- [Eric L. Barnes](https://ericlbarnes.com/2018/12/28/my-2018-a-look-back)
+- [Bobby Bouwmann](https://medium.com/@bobbybouwmann/my-2018-e308d5c85b78)
+- [Sebastian De Deyne](https://sebastiandedeyne.com/hindsight-2018-edition)
+- [David Llop](https://davidllop.com/posts/year-retrospective-2018)
+- [Povilas Korop](https://twitter.com/PovilasKorop/status/1079281481682432000)
+- [Jason McCreary](https://dev.to/gonedark/2018-dev-goals-4abd)
+- [Marcel Pociot](http://marcelpociot.de/blog/2018-my-year-in-review)
+- [Paul Redmond](https://bitpress.io/2018-year-in-review)
+- [Christoph Rumpel](https://christoph-rumpel.com/2018/12/my-coding-year-2018)
+- [Mohamed Said](https://themsaid.com/thats-a-wrap-2018)
+- [Freek Van der Herten](https://murze.be/a-recap-of-2018)
+- [Adam Wathan](https://adamwathan.me/2018-year-in-review)
