@@ -30,6 +30,9 @@ class HeadingRenderer implements BlockRendererInterface
             $attrs[$key] = Xml::escape($value, true);
         }
 
-        return new HtmlElement($tag, $attrs, $htmlRenderer->renderInlines($block->children()));
+        $element = new HtmlElement($tag, $attrs, $htmlRenderer->renderInlines($block->children()));
+        $element->setAttribute('id', str_slug($element->getContents()));
+
+        return $element;
     }
 }

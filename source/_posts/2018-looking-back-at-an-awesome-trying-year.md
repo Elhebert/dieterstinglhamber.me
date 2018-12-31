@@ -85,7 +85,7 @@ I still need to work on the documentation for some of those packages/libraries. 
 
 I also started to take an **interest in privacy** and how we, as developers, can improve our ways to **make privacy-first websites**.
 
-# My goals 2019
+# My goals for 2019
 
 One thing I really want to do in early 2019 is to take 1 or 2 weeks off, unplug from everything, take my bike, my walking shoes and go to the South of France.
 
