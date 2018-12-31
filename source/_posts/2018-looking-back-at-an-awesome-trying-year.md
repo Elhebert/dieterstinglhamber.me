@@ -104,7 +104,7 @@ Tech-wise I just want to keep improving. I have **2 projects in mind for 2019**,
 - [Sebastian De Deyne](https://sebastiandedeyne.com/hindsight-2018-edition)
 - [David Llop](https://davidllop.com/posts/year-retrospective-2018)
 - [Povilas Korop](https://twitter.com/PovilasKorop/status/1079281481682432000)
-- [Jason McCreary](https://dev.to/gonedark/2018-dev-goals-4abd)
+- [Jason McCreary](https://jason.pureconcepts.net/2018/12/2018-lookbehind-2019-lookahead/)
 - [Marcel Pociot](http://marcelpociot.de/blog/2018-my-year-in-review)
 - [Paul Redmond](https://bitpress.io/2018-year-in-review)
 - [Christoph Rumpel](https://christoph-rumpel.com/2018/12/my-coding-year-2018)
