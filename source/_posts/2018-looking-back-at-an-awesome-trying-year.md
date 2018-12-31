@@ -111,3 +111,5 @@ Tech-wise I just want to keep improving. I have **2 projects in mind for 2019**,
 - [Mohamed Said](https://themsaid.com/thats-a-wrap-2018)
 - [Freek Van der Herten](https://murze.be/a-recap-of-2018)
 - [Adam Wathan](https://adamwathan.me/2018-year-in-review)
+
+More can be found on [www.a-year-review.tech](https://www.a-year-review.tech).
