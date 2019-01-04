@@ -12,7 +12,7 @@ However, the arrival of the GDPR made the process harder. Requiring an explicit 
 
 In most case, you had 2 choices, accepting everything by default or configuring your experience and potentially opt-out of the tracking. For a lot of these websites that were using a cookie banner, the configuring part is really complex to force the user to get confused and accept everything.
 
-At my current company, we are designing websites for bug retailer to convert people into customers. But clients care a lot about actual data. This means that we have to gather data on as many people as we can. Which led us to implement blocking banners for all websites that we are doing.
+At my current company, we are designing websites for big retailers to convert people into customers. But clients care a lot about actual data. This means that we have to gather data on as many people as we can. Which led us to implement blocking banners for all websites that we are doing.
 
 We started to us Matomo in addition to Google Analytics. Matomo is configured to be fully GDPR compliant, thus can track users before they give their consent to the use of tracking cookies.
 
