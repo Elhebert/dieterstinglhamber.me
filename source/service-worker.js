@@ -19,6 +19,7 @@ self.addEventListener('install', event => {
           '/webmanifest/favicon-16x16.png',
           '/webmanifest/favicon-32x32.png',
           '/blog/',
+          '/blog/i-socialized-with-real-people',
           '/blog/the-state-of-data-collection-in-a-post-gdpr-era',
           '/blog/2018-looking-back-at-an-awesome-trying-year/',
           '/blog/we-are-all-stupid-thus-nobody-is/',
