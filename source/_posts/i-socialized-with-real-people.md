@@ -2,7 +2,7 @@
 extends: _layouts.post
 section: content
 title: I socialized with real people
-date: 2019-20-01
+date: 2019-01-20
 tag: life
 ---
 
