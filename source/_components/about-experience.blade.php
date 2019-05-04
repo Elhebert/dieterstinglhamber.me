@@ -5,10 +5,24 @@
         </div>
         <div>
             <p class="text-xl">
+                Backend Software Engineer
+            </p>
+            <p class="text-invers text-base -mt-2 mb-2">
+                May 2019 - now &dash; Trivago
+            </p>
+        </div>
+    </li>
+
+    <li class="flex my-4">
+        <div class="w-10 h-10 bg-invers p-2 mr-3 rounded-full flex-no-shrink">
+            @include('_partials.icon-office')
+        </div>
+        <div>
+            <p class="text-xl">
                 Back-end developer
             </p>
             <p class="text-invers text-base -mt-2 mb-2">
-                Mar 2017 - now &dash; Altavia ACT*
+                Mar 2017 - April 2019 &dash; Altavia ACT*
             </p>
             <p class="text-invers">
                 My responsabilities are mainly to deliver clean, optimized, tested and functionnal <strong class="font-semibold">Laravel</strong> based products. As Code Owner I review all commits and ensure that the code we deliver is matching our standards.<br>
