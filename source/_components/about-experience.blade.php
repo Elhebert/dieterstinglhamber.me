@@ -25,8 +25,8 @@
                 Mar 2017 - April 2019 &dash; Altavia ACT*
             </p>
             <p class="text-invers">
-                My responsabilities are mainly to deliver clean, optimized, tested and functionnal <strong class="font-semibold">Laravel</strong> based products. As Code Owner I review all commits and ensure that the code we deliver is matching our standards.<br>
-                I'm also handling the Ops side of our work (deployments and server maintenance).
+                My responsabilities were mainly to deliver clean, optimized, tested and functionnal <strong class="font-semibold">Laravel</strong> based products. As Code Owner I reviewed all commits and ensure that the code delivered was matching their standards.<br>
+                I was also handling the Ops side of the work (deployments and server maintenance).
             </p>
         </div>
     </li>
