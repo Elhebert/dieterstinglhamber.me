@@ -8,7 +8,7 @@
                 Backend Software Engineer
             </p>
             <p class="text-invers text-base -mt-2 mb-2">
-                May 2019 - now &dash; Trivago
+                May 2019 - now &dash; trivago
             </p>
         </div>
     </li>
