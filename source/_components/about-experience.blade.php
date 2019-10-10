@@ -11,14 +11,14 @@
                 May 2019 - now &dash; trivago
             </p>
             <p class="text-invers">
-                Purpose: Support hoteliers success by developing and implementing a seamless app platform that facilitates apps in an intuitive and valuable way.
-
+                Purpose: Support hoteliers success by developing and implementing a seamless app platform that facilitates apps in an intuitive and valuable way.<br>
+                <br>
                 Key Responsibilities:
                 <ul>
-                    <li>Develop high traffic web applications</li>
-                    <li>Implement new features and apps to drive products further</li>
-                    <li>Set-up efficient and high performing storage technology</li>
-                    <li>Connect multiple applications by services to perform data exchange efficiently</li>
+                    <li class="text-invers">Develop high traffic web applications</li>
+                    <li class="text-invers">Implement new features and apps to drive products further</li>
+                    <li class="text-invers">Set-up efficient and high performing storage technology</li>
+                    <li class="text-invers">Connect multiple applications by services to perform data exchange efficiently</li>
                 </ul>
             </p>
         </div>
