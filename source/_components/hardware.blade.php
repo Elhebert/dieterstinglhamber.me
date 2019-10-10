@@ -49,10 +49,10 @@
                 I have multiple keyboards, at home I mainly use a <strong>Massdrop CTRL</strong>, but I also have a <strong>WASD keyboard</strong> laying around.
             </p>
             <p class="mb-4">
-                For gaming purposes I have a <strong>Steelseries Sensei [RAW]</strong>, but for my Macbook I have a <strong>Magic Trackpad 2</strong>.
+                For gaming purposes I have a <strong>Steelseries Rival 310</strong>, but for my Macbook I have a <strong>Magic Trackpad 2</strong>.
             </p>
             <p>
-                I also have a huge "Heroes of the Storm" mousepad where I can put both my keybaord and mouse.
+                I also have a huge "Heroes of the Storm" mousepad where I can put both my keyboard and mouse.
             </p>
         </div>
     </li>
