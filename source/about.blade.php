@@ -42,6 +42,10 @@ title: About
         <p class="mb-8">
             In 2018 I went to walk part of the <strong class="font-semibold">Ulster Way</strong> (Nothern Ireland) for a week. I also attempted the <a class="text-default" href="{{ $page->baseUrl }}/blog/i-attempted-to-run-a-marathon">Brussels Aiport Marathon</a>.
         </p>
+
+        <p class="mb-8">
+            In 2019 I joined <strong class="font-semibold">trivago</strong> and moved to Leipzig (Germany). I'm hosting weekly Boardgames events for my colleagues.
+        </p>
     </div>
 </main>
 @endsection

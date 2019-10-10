@@ -1,6 +1,6 @@
 'use strict'
 
-const cacheVersion = '0.2.16'
+const cacheVersion = '0.2.17'
 const currentCache = {
   offline: `offline-cache-${cacheVersion}`,
 }
