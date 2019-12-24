@@ -137,6 +137,6 @@ As a wise man once said:
 
 So, enjoy Christmas and New Year. Have a good time with your family. And let's do some good shit in 2020.
 
-# 
-Others people retrospective
+# Others people retrospective
+
 If you are interested in reading other people 2019 review, I'm curating a list on [https://a-year-review.tech](https://a-year-review.tech).
