@@ -9,7 +9,7 @@
         </h2>
 
         <p class="text-invers text-2xl leading-normal lg:leading-loose | my-8">
-            26 years old nerd, passionate by web development, RPG's, fantasy books, Belgian beers and computers.
+            27 years old nerd, passionate by web development, RPG's, fantasy books, Belgian beers and computers.
         </p>
 
         <p class="text-invers text-2xl leading-normal lg:leading-loose | my-8">
