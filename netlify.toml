@@ -2,7 +2,7 @@
 
 command = "npm run production"
 publish = "build_production"
-environment = { PHP_VERSION = "7.4" }
+environment = { PHP_VERSION = "7.2" }
 
 [[redirects]]
 from = "/we-are-all-stupid-thus-nobody-is"
