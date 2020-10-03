@@ -1,6 +1,6 @@
 'use strict'
 
-const cacheVersion = '0.2.19'
+const cacheVersion = '0.2.20'
 const currentCache = {
   offline: `offline-cache-${cacheVersion}`,
 }
@@ -19,6 +19,7 @@ self.addEventListener('install', event => {
           '/webmanifest/favicon-16x16.png',
           '/webmanifest/favicon-32x32.png',
           '/blog/',
+          '/blog/2019-retrospective/',
           '/blog/i-socialized-with-real-people',
           '/blog/the-state-of-data-collection-in-a-post-gdpr-era',
           '/blog/2018-looking-back-at-an-awesome-trying-year/',
