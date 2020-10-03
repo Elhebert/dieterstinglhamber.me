@@ -5,7 +5,7 @@
                OS
             </p>
             <p>
-                I was on Sierra and when I upgrade my laptop I made the switch to Mojave.
+                I'm on MacOS Catalina.
             </p>
         </div>
     </li>
@@ -64,19 +64,15 @@
                 <figcaption class="text-center text-sm text-invers -mt-2">Softwares installed on my macbook pro</figcaption>
             </figure>
             <ul>
-                <li>Spectable, a window manager.</li>
+                <li>Rectangle, a window manager.</li>
                 <li>F.lux to manage my screen warmth (reducing blue light).</li>
-                <li>Encrypto create secure, password protected encrypted files.</li>
                 <li>1Password, my password amanger of choice.</li>
-                <li>Cyberduck, a free (s)ftp client.</li>
                 <li>Figma, a design tool.</li>
                 <li>Numi, a powerful calculator that can also calculate date range.</li>
-                <li>Bear, a markdown note taking app</li>
                 <li>Spotify, for music (duh).</li>
                 <li>Insomnia, a API testing tool.</li>
                 <li>Alfred, a "productivity app".</li>
                 <li>Sequel Pro, (the best) sql client.</li>
-                <li>Grammarly, grammar (and typo) correction tool.</li>
                 <li>...</li>
             </ul>
         </div>
