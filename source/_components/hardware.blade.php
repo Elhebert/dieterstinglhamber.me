@@ -2,7 +2,7 @@
     <li class="flex mb-16">
         <div>
             <p class="text-xl | text-invers">
-               Laptop (dev related task)
+               Laptop (personal dev related task)
             </p>
             <p>
                 <strong>Macbook pro 13" (mid 2012)</strong>, I upgraded it with 8Go of RAM and an SSD to give it a second life (and it's way cheaper than buying a new one).
@@ -21,7 +21,7 @@
                 Desktop (entertainment)
             </p>
             <p>
-                I built a gaming computer 2 years ago with 2x MSI GTX 970, i5 6600K and 8Go of RAM.
+                I updated my gaming computer last year with a MSI RTX 2080 Ti, an AMD Ryzen 9 3900X and 32Go of RAM.
             </p>
         </div>
     </li>
@@ -32,10 +32,7 @@
                 Display
             </p>
             <p class="mb-4">
-                I have 2 gaming screens a <strong>BenQ XL2730z</strong> and a <strong>BenQ XL2410t</strong>.
-            </p>
-            <p>
-                When using my macbook I plug my 27" screen to it and use it as only screen.
+                I have a 27" 1440p 144hz gaming screen (<strong>BenQ XL2730z</strong>) and a 32" 4K screen for dev and multimedia purposes <strong>BenQ PD322U</strong>.
             </p>
         </div>
     </li>
@@ -52,7 +49,7 @@
                 For gaming purposes I have a <strong>Steelseries Rival 310</strong>, but for my Macbook I have a <strong>Magic Trackpad 2</strong>.
             </p>
             <p>
-                I also have a huge "Heroes of the Storm" mousepad where I can put both my keyboard and mouse.
+                I also have a NovelKeys Laser Desk/Mouse Mat where I can put both my keyboard and mouse.
             </p>
         </div>
     </li>
