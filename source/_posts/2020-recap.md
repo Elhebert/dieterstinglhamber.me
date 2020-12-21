@@ -6,7 +6,7 @@ date: 2020-12-21
 tag: life
 ---
 
-I think that I don't need to tell you what happened in 2020. We are all aware of what a shitty year it was for everyone. I remember that last year I told myself to not make objectives because something was going to fuck shit up. And boy I wasn't prepare for this. It's going to be a shorter one that previous year because I don't want to spend hours writing everything in details. I want to provide some insight in my year, but I'll skip many thing that I'm not ready (mentally) to speak about.
+I remember that last year I told myself to not make objectives because something was going to fuck shit up. And boy I wasn't prepare for this. I'm already warning you, this isn't going to be a good post, nor a good recap. I'm currently not in the mental space of doing this, but I wanted to force myself to write some words about this hell of a year we all had.
 
 # Work
 
@@ -30,24 +30,20 @@ In October we lost 3 more members of our team and in January another one is leav
 
 I always wanted to try home office properly. I've worked from home once in a while, but it's not the same. And I'm really happy working from home. I'm way more productive and I can ignore people talking to me without feeling bad. I think it's a good thing and I don't see myself going back to an office at the moment.
 
-When I moved to Düsseldorf I made myself a new setup. I can't be more happy about it. You can see picture on my twitter, but I'll add some to the post later. I have an IKEA Bekant standing desk, but I replace the counter top by a wooden kitchen countertop, which makes it way better. I changed so many things (microphone, webcam, lighting, screens) that it's hard to describe in text format to be honest.
+When I moved to Düsseldorf I made myself a new setup. I can't be more happy about it. You can see picture on my twitter, but I might add some to the post later. I have an IKEA Bekant standing desk, but I replace the counter top by a wooden kitchen countertop, which makes it way better. I changed so many things (microphone, webcam, lighting, screens) that it's hard to describe in text format to be honest.
 
 # Personal life
 
 I've been pretty much offline this year when it comes to social media. I wasn't in the mood to be honest. I've ignore so many thing and so many people.
 
-Being abroad when a pandemic happen sucks. I'm very close to my family but I was unable to see them in month. In June I got the chance to go back to Belgium to meet with them, but that was it for 2020. My mental health took a bit hit because of that. One big escape from all of this was Dungeon and Dragons. Last year I started to DM a campaign for some colleagues. And this year I played in 2 campaigns, I'm still running mine and I started playing in a new one. This has kept me quite busy and there's nothing better that pretending to be someone else to make you forget how shitty the world is right now.
+Being abroad when a pandemic happen sucks. I'm very close to my family but I was unable to see them in month. In June I got the chance to go back to Belgium to meet with them, but that was it for 2020. My mental health took a bit hit because of that. One big escape from all of this was Dungeons and Dragons. Last year I started to DM a campaign for some colleagues. And this year I played in 2 campaigns, I'm still running mine and I started playing in a new one. This has kept me quite busy and there's nothing better that pretending to be someone else to make you forget how shitty the world is right now.
 
-With the whole work and flat situation that I had to handle I didn't took any holiday in 2020. And at the begining of December I started to burn out. I was unmotivated and stressed all the time. This resulted in me taking the month of December off work to be able to rest before it got out of hand.
+With the whole work and flat situation that I had to handle I didn't took any holiday in 2020. And at the begining of December I started to burn out. I was unmotivated and stressed all the time. This resulted in me taking the month of December off work to be able to rest before it got out of hand. But to end the year on a positive note, I received my PS5 4 days ago, so I'll be playing a lot of Demon's Souls before spending 2 weeks with my parent in South of France.
 
 # Closing notes
 
-I'm sorry this isn't a great read. 
-
-I'm really not feeling in the mood to write mote. I had a very hard year, like tons of people out there. So much happen, good and bad and disconnecting from everything was a rally good decision.
-
-Take care of your self. Nobody expect 100% from you in these hard times. So, take a break if you need to and wear a mask!
+I'm sorry this isn't a great read. I had a very hard year, like tons of people out there. And it still has a big effect on me. Both good and bad thing happened this year. And maybe next year will be better. In the mean time: Take care of your self. Nobody expect 100% from you in these hard times. So, take a break if you need to and wear a mask!
 
 # Others people retrospective
 
-If you are interested in reading other people 2019 review, I'm curating a list on [https://a-year-review.tech](https://a-year-review.tech).
+If you are interested in reading other people 2020 review, I'm curating a list on [https://a-year-review.tech](https://a-year-review.tech).
